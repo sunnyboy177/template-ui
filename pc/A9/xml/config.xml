@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+IN THIS XML FILE YOU WILL FIND GLOBAL SETTINGS FOR THE TEMPLATE AS WELL AS THE FOOTER, MUSIC/YOUTUBE AND SOCIAL ICONS 
+-->
+
+<data>
+	
+	<!-- Change this to true when testing locally on a Mac -->
+	<localTesting>false</localTesting>
+	
+	<settings>
+		
+		<!-- The prefix to your browser titles, this should be the same as the <title> tag in the html page -->
+		<websiteName>网站标题</websiteName>
+		
+		<!-- The url of the main template swf -->
+		<templateURL>canvas.swf</templateURL>
+		
+		<!-- The url of your logo, can be image or swf -->
+		<logoURL>images/logo.png</logoURL>
+		
+		<!-- The url to the menu xml file --> 
+		<menuXML>xml/menu.xml</menuXML>
+		
+		<!-- The total height of the menu background -->
+		<menuHeight>80</menuHeight>
+		
+		<!-- The x position of the menu -->
+		<menuX>61</menuX>
+		
+		<!-- Set the top-level menu spacing in pixels -->
+		<menuSpacing>15</menuSpacing>
+		
+		<!-- The right-margin for the logo -->
+		<logoPaddingX>30</logoPaddingX>
+		
+		<!-- The url to the full-background video swf -->
+		<videoBgModule>videobackground.swf</videoBgModule>
+		
+		<!-- This is the swf that will be used for playing all non-youtube video -->
+		<videoSwf>singlevideo.swf</videoSwf>
+		
+		<!-- this is the custom swf that will be used fro playing all youtube video -->
+		<youTubeSwf>youtubeplayer.swf</youTubeSwf>
+		
+		<!-- The message to be displayed for the preloader, HTML supported -->
+		<preloaderMessage><![CDATA[<!-- BEGIN -->LOADING<br />CONTENT<!-- END -->]]></preloaderMessage>
+	
+	</settings>
+	
+	<!-- useFullScreen = Choose to use the full-screen button, true/false -->
+	<!-- useMusic = Choose to use the music player, true/false -->
+	<!-- youeSocial = Choose to use the social icons, true/false -->
+	<footer useFullScreen="true" useMusic="true" useSocial="true">
+		
+		<footerSettings>
+			
+			<!-- The main icon that will activate the footer on mouse over -->
+			<hoverIcon>images/icon.png</hoverIcon>
+			
+			<!-- The footer background color -->
+			<footerBgColor>#FFFFFF</footerBgColor>
+			
+			<!-- The tooltip message for the full-screen button (if used) -->
+			<fullScreenToolTip>全屏模式</fullScreenToolTip>
+		
+		</footerSettings>
+		
+		<!-- volume = The volume for an mp3 song -->
+		<!-- buffering = The amount of seconds to buffer an mp3 song -->
+		<music volume="100" buffering="3">
+			
+			
+			
+			<media>
+				
+				<!-- YOU TUBE EXAMPLE -->
+				<!-- isYouTube = Whether the item is a youtube video or mp3 song, true/false -->
+				
+				
+				<!-- MP3 SONG EXAMPLE -->
+				<!-- isYouTube = Whether the item is a youtube video or mp3 song, true/false -->
+				<item isYouTube="false">
+				
+					<!-- The tool tip text -->
+					<toolTip>我心永恒 - Titanic</toolTip>
+					
+					<!-- The URL of the mp3 song to be played -->
+					<url>music/1.mp3</url>
+					
+				</item>	
+				
+				
+				<item isYouTube="false">
+				
+					<!-- The tool tip text -->
+					<toolTip>FIFTY TONS - Eternity</toolTip>
+					
+					<!-- The URL of the mp3 song to be played -->
+					<url>music/2.mp3</url>
+					
+				</item>	
+				
+				
+				
+			</media>
+		
+		</music>
+		
+		<social>
+			
+			<!-- The total width of the icon (this value is used for social icon spacing) -->
+			<icon width="16">
+			
+				<!-- The tooltip text -->
+				<toolTip>新浪微博</toolTip>
+				
+				<!-- The url of the social icon -->
+				<image>images/social/16-sinaweibo.png</image>
+				
+				<!-- The click destination for the icon -->
+				<url>http://weibo.com/</url>
+				
+				<!-- The window target for an icon click -->
+				<target>_blank</target>
+				
+			</icon>
+                        <icon width="16">
+				<toolTip>咨询QQ</toolTip>
+				<image>images/social/16-qq.png</image>
+				<url>http://wpa.qq.com/msgrd?v=3&uin=397947983&site=qq&menu=yes</url>
+				<target>_blank</target>
+			</icon>
+			
+			<icon width="16">
+				<toolTip>腾讯微博</toolTip>
+				<image>images/social/16-qqweibo.png</image>
+				<url>http://t.qq.com/monleon </url>
+				<target>_blank</target>
+			</icon>
+                        <icon width="16">
+				<toolTip>E-mail</toolTip>
+				<image>images/social/16-mail.png</image>
+				<url>mailto:i@flashdos.com/ </url>
+				<target>_blank</target>
+			</icon>
+                        <icon width="16">
+				<toolTip>搜狐微博</toolTip>
+				<image>images/social/16-sohuweibo.png</image>
+				<url>http://www.flashdos.com/ </url>
+				<target>_blank</target>
+			</icon>
+			
+		
+		
+		</social>
+	
+	</footer>
+	
+</data>

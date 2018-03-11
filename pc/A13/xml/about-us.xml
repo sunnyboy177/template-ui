@@ -1,0 +1,88 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<settings
+	
+		imageBgColor="FFFFFF"
+		imageBgAlpha="0.3"
+		imageBorderColor="FFFFFF"
+		imageBorderThickness="1"
+		imageShadowColor="999999"
+		imageShadowAlpha="0.5"
+		imagePreloaderColor="333333"
+		imagePreloaderAlpha="0.5"
+		imageCaptionBgColor="000000"
+		imageCaptionBgAlpha="0.3"
+		imageCaptionBlurredBg="true"
+		imageCaptionBgBlurAmount="32"
+		imageCaptionPadding="5"
+		imageOverBrightness="0.4"
+		
+		listItemMarkerURL="images/icons/list-item-marker-type1.png"
+		listItemMarkerTopPadding="8"
+		listItemLeftPadding="12"
+		listItemBottomPadding="3"
+		
+		scrollBarTrackWidth="2"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="4"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor=""
+		
+		useSlideshow="false"
+		slideshowLeftMargin=""
+		slideshowTopMargin=""
+		slideshowHeight=""
+		slideshowXML=""
+
+	/>
+	
+	<content topMargin="0">
+	
+		<textblock topMargin="0">
+			<text><![CDATA[<p><b>This is a standard page created with the Standard Page module.</b> The Estetica template uses the original internal system for arranging HTML text and images on pages. This universal system of content blocks can be completely used in all standard pages (the Standard Page module) and partly in some other modules.</p><space></space><space></space><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo urna, convallis at tincidunt vel, convallis quis nisi. In eleifend ligula sit amet lacus suscipit tristique tempor turpis aliquet. Etiam sollicitudin turpis in quam tincidunt lacinia. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas tincidunt diam sit amet lacus adipiscing eu dignissim mauris molestie. Nam in orci turpis <a href="#/philosophy" target="_self">philosophy</a> augue. Nulla facilisi. Suspendisse lobortis consequat sapien, at accumsan justo condimentum a. Nulla facilisi. Aliquam erat volutpat. Proin elementum augue nec lectus molestie congue. Duis sed quam massa, nec molestie sapien.</p>]]></text>
+		</textblock>
+		
+		<cols>
+			<col>
+				<imageblock topMargin="30" leftMargin="35">
+					<image src="images/aboutus/img1.jpg" width="400" height="200" clickLink="" clickTarget=""/>
+					<caption><![CDATA[<imagecaption>Here you can place the caption text...</imagecaption>]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="30" leftMargin="25">
+					<image src="images/aboutus/img2.jpg" width="400" height="200" clickLink="" clickTarget=""/>
+					<caption><![CDATA[<imagecaption>Our vineyards cover about...</imagecaption>]]></caption>
+				</imageblock>
+			</col>
+		</cols>
+		
+		<textblock topMargin="20">
+			<text><![CDATA[<p>Aliquam dictum metus ipsum, ac tristique mauris. Donec aliquet leo eget risus tempor sed bibendum ipsum dignissim. Nam ante ipsum, dictum egestas pharetra ac, tempus ac libero? Aenean non ornare lectus. Donec facilisis posuere vehicula. Donec iaculis, dolor et consectetur feugiat, lacus dui vestibulum risus, a elementum lacus velit in tortor.</p>]]></text>
+		</textblock>
+		
+		<list topMargin="10" leftMargin="35" markerColor="444444">
+			<item><![CDATA[<p>Aenean non ornare lectus donec facilisis posuere vehicula.</p>]]></item>
+			<item><![CDATA[<p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat.</p>]]></item>
+			<item><![CDATA[<p>Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Donec iaculis, dolor et consectetur feugiat, lacus dui vestibulum risus, a elementum lacus velit in tortor. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus.</p>]]></item>
+			<item><![CDATA[<p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat.</p>]]></item>
+			<item><![CDATA[<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>]]></item>
+		</list>
+		
+		<textblock topMargin="10">
+			<text><![CDATA[<p>Integer vel enim mi, sed suscipit neque. Integer at enim cursus massa malesuada tempus. Praesent congue molestie tristique. Nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Mauris rhoncus aliquet lectus, lobortis fringilla tortor placerat ac. Vestibulum quis dui dui. Nulla ornare neque sit amet magna volutpat cursus sit amet sollicitudin massa. Sed a sapien ac odio fringilla accumsan. Sed blandit dapibus fermentum. Sed nunc arcu, malesuada non hendrerit id, viverra nec tortor. Sed non venenatis erat. Etiam sollicitudin lectus vitae velit vulputate quis consequat nunc placerat. In ac risus quam, in congue purus. Nunc velit nisl, lobortis non eleifend ut, adipiscing et turpis. Suspendisse ut eros nibh, quis consequat augue.</p><space></space><space></space><p>Nullam lorem lorem, bibendum eu facilisis eu, feugiat convallis lectus. Suspendisse euismod scelerisque nisi sed interdum. Duis orci ligula, malesuada a gravida eu, lobortis at est. Duis suscipit varius lorem vitae volutpat. Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor. Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Mauris in pulvinar nunc. Praesent eu libero risus. Donec a volutpat purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam bibendum mauris molestie nisi dignissim mattis. Vestibulum ac massa magna, vitae volutpat lacus.</p>]]></text>
+		</textblock>
+		
+		<textblock topMargin="10">
+			<text><![CDATA[<p>Sed felis nisl, ultricies vel laoreet nec, fringilla ac dui. Aliquam erat volutpat. Aenean varius, mi in malesuada congue, odio arcu placerat dui, non tristique purus tellus quis justo. Donec non eros ipsum, vel suscipit enim. Proin at leo a ligula egestas pellentesque. Maecenas porta pretium quam, et rutrum nunc lobortis id. Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. In nec quam sit amet erat iaculis cursus. Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis diam nunc. Quisque nisl enim, volutpat vitae fermentum sed, convallis non ante. Quisque tincidunt lacus turpis. Nulla congue suscipit turpis, vitae hendrerit augue facilisis quis.</p>]]></text>
+		</textblock>
+		
+	</content>
+	
+</data>

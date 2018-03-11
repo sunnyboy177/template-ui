@@ -1,0 +1,203 @@
+﻿<data>
+	
+	<settings>
+		
+		<!-- choose to use a stylesheet, true/false -->
+		<useCSS>true</useCSS>
+		
+		<!-- the url to your css file if used -->
+		<cssURL>css/contact.css</cssURL>
+		
+		<!-- the url to the php file that processes the file -->
+		<phpUrl>php/contact.php</phpUrl>
+		
+		<!-- choose to use social icons, true/false -->
+		<useSocialIcons>true</useSocialIcons>
+		
+		<!-- The main background color -->
+		<bgColor>#29161A</bgColor>
+		
+		<!-- The background transparency level, 0-100 (set to 0 for no background) -->
+		<bgTransparency>100</bgTransparency>
+		
+	</settings>
+	
+	<twitter>
+		
+		<!-- Choose to use the Twitter CSS file -->
+		<useTwitterCSS>false</useTwitterCSS>
+		
+		<!-- This can be used to color the twitter links -->
+		<twitterCSS>css/twitter.css</twitterCSS>
+		
+		<!-- choose to display Twitter posts -->
+		<useTwitter>false</useTwitter>
+		
+		<!-- Your Twitter ID -->
+		<twitterID>26082143</twitterID>
+		
+		<!-- The twitter php file -->
+		<twitterPHP>php/twitter.php</twitterPHP>
+		
+		<!-- The width of the twitter section -->
+		<twitterWidth>300</twitterWidth>
+		
+		<!-- The title for the Twitter section -->
+	
+	
+	</twitter>
+	
+	<emailFormat>
+		
+		<!-- choose to submit from the entered email field -->
+		<!-- if false, you must enter an email address below -->
+		<submitFromEmailField>true</submitFromEmailField>
+		
+		<!-- if "submitFromEmailField" is false, enter an email address here from your domain, else leave blank -->
+		<submitFrom></submitFrom>
+		
+		<!-- the email address to send the form data to -->
+		<sendTo>admin@flashdos.com</sendTo>
+		
+		<!-- the name that will appear in the email header -->
+		<companyName>FlashDos</companyName>
+		
+		<!-- the subject that will appear in the email subject -->
+		<emailSubject>Website Email!</emailSubject>
+		
+		<!-- the first thing that will appear in the body text of the email -->
+		<bodyGreeting>You Have a New Website Email!</bodyGreeting>
+	
+	</emailFormat>
+	
+	<formFormat>
+		
+		<!-- The x position of the form -->
+		<formX>200</formX>
+		
+		<!-- the color of the field text -->
+		<fieldTextColor>#ffffff</fieldTextColor>
+		
+		<!-- the color fo the field background -->
+		<fieldBackgroundColor>#ffffff</fieldBackgroundColor>
+		
+		<!-- the transparency of the background field, 0-100 (enter 0 for no background) -->
+		<fieldBackgroundTransparency>16</fieldBackgroundTransparency>
+		
+		<!-- the hover transparency of the background field, 0-100 (enter 0 for no background) -->
+		<fieldBgHoverTransparency>5</fieldBgHoverTransparency>
+		
+		<!-- the color of the button text -->
+		<buttonTextColor>#ffffff</buttonTextColor>
+		
+		<!-- the hover color of the button text -->
+		<buttonTextHoverColor>#4B3B3E</buttonTextHoverColor>
+		
+		<!-- the width of the fields -->
+		<fieldWidth>300</fieldWidth>
+		
+		<!-- the height of a large field -->
+		<largeFieldHeight>180</largeFieldHeight>
+		
+		<!-- the success message, HTML/CSS supported -->
+		<successMessage><![CDATA[<!-- BEGIN --><success_txt>发送成功！</success_txt><!-- END -->]]></successMessage>
+		
+		<!-- choose to restrict phone field to numbers -->
+		<restrictPhoneToNumbers>true</restrictPhoneToNumbers>
+		
+		<!-- the text for the submit button -->
+		<submitButtonText>提交</submitButtonText>
+		
+		<!-- the color of the scrollBar background -->
+		<scollBarBgColor>#584A4D</scollBarBgColor>
+		
+		<!-- the color of the scrollBar drag bar -->
+		<scrollBarDragColor>#ffffff</scrollBarDragColor>
+	
+	</formFormat>
+	
+	<fields>
+	
+		<!-- 
+		
+		fieldType:
+		
+			1) small
+			2) large (typically used for a message)
+		
+		 -->
+	
+		 <!-- 
+		 
+		 validation (only relevent if "required" is set to "true") 
+		 
+			1) basic (a basic input field)
+			2) email
+		 
+		 -->
+		
+		<!-- declare whether the field is the email field, true/false -->
+		<input isEmail="false">
+		
+			<!-- the title of the field -->
+			<fieldName>你的姓名</fieldName>
+			
+			<!-- the field type, see notes above -->
+			<fieldType>small</fieldType>
+			
+			<!-- whether the field is required or not -->
+			<required>true</required>
+			
+			<!-- the validation type, see comments above -->
+			<validationType>basic</validationType>
+			
+			<!-- the message to be displayed if field does not pass validation -->
+			<errorMessage>请输入你的名字!</errorMessage>
+			
+		</input>
+		
+		<input isEmail="true">
+			<fieldName>电子邮箱</fieldName>
+			<fieldType>small</fieldType>
+			<required>true</required>
+			<validationType>email</validationType>
+			<errorMessage>请输入你的电子邮箱!</errorMessage>
+		</input>
+		
+		<input isEmail="false">
+			<fieldName>移动电话</fieldName>
+			<fieldType>small</fieldType>
+			<required>false</required>
+			<validationType>phone</validationType>
+			<errorMessage>请输入你的移动电话</errorMessage>
+		</input>
+		
+		<input isEmail="false">
+			<fieldName>个人网站</fieldName>
+			<fieldType>small</fieldType>
+			<required>false</required>
+			<validationType>basic</validationType>
+			<errorMessage>请输入您的网站的地址！</errorMessage>
+		</input>
+	
+		<input isEmail="false">
+			<fieldName>主题正文</fieldName>
+			<fieldType>large</fieldType>
+			<required>true</required>
+			<validationType>basic</validationType>
+			<errorMessage>请输入主题正文！</errorMessage>
+		</input>
+	
+	</fields>
+	
+	<!-- the HTML/CSS supported contact info -->
+	<info><![CDATA[<!-- BEGIN --><title_text>地址</title_text><normal_text>BeiLun New100#<br/>NingBo.<br/>Zhe Jiang, China</normal_text><title_text>移动电话</title_text><normal_text>+86 15158322831</normal_text><title_text>公司传真</title_text><normal_text>0039 405 675</normal_text>
+<title_text>电子邮箱</title_text><a href="mailto:admin@flashdos.com">admin@flashdos.com</a>  
+<title_text>个人主页</title_text><a href="http://www.flashdos.com" target="_blank">www.flashdos.com</a>
+<!-- END -->]]>
+</info>
+	
+	
+		
+
+</data>

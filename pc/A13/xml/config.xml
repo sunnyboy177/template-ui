@@ -1,0 +1,113 @@
+﻿
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings>
+	
+	<general
+		
+		websiteTitle="Estetica Business Website Template"
+		templateWidth="980"
+		bodyBgColor="FFFFFF"
+		bodyBgAlpha="0.6"
+		bodyLeftMargin="40"
+		bodyRightMargin="40"
+		
+		headerMinHeight="100"
+		headerMaxHeight="200"
+		showHeaderGrid="true"
+		headerGridColor="FFFFFF"
+		headerGridMeshSize="10"
+		
+		logoURL="images/logo.png"
+		logoXOffset="26"
+		logoYPosition="6"
+		
+		menuXML="xml/menu.xml"
+		menuAlign="right"
+		menuYPosition="18"
+		menuBarHeight="36"
+		menuBarColor="4C6066"
+		menuBarAlpha="1"
+		menuBarGradientColor="31484F"
+		menuBarGradientAlpha="1"
+		menuSpacing="20"
+		menuFont="Franklin Gothic Medium Cond"
+		menuFontSize="15"
+		menuFontWeight="normal"
+		menuFontColor="F3F3F3"
+		menuOverFontColor="FFFFE8"
+		menuSelectedFontColor="FFCC99"
+		menuOverBgColor="384647"
+		menuOverBgAlphaTop="0.2"
+		menuOverBgAlphaBottom="1"
+		menuTrimHeight="2"
+		menuTrimColor="FFFFFF"
+		menuTrimAlpha="0.5"
+		
+		submenuItemHeight="28"
+		submenuFontSize="14"
+		submenuFontWeight="normal"
+		submenuFontColor="777777"
+		submenuOverFontColor="31484F"
+		submenuSelectedFontColor="333333"
+		submenuBgColor="FFFFFF"
+		submenuBgAlpha="0.9"
+		submenuOverBgColor="E7E7E7"
+		submenuOverBgAlpha="1"
+		submenuShadowColor="333333"
+		submenuShadowAlpha="0.4"
+		submenuShadowStrength="1"
+		submenuShadowDistance="1"
+		
+		contentPageBgColor="FFFFFF"
+		contentPageBgAlpha="0.5"
+		contentPageBlurredBg="true"
+		contentPageBgBlurAmount="32"
+		styleSheetURL="css/textstyle.css"
+		
+		parentPageLinkIconURL="images/icons/separator.png"
+		parentPageLinkIconTopPadding="7"
+		parentPageLinkIconLeftPadding="12"
+		parentPageLinkIconColor="4C6066"
+		
+		footerHeight="34"
+		footerLeftMargin="40"
+		footerRightMargin="40"
+		footerBgColor="777777"
+		footerBgAlpha="0.7"
+		showMusicIcon="true"
+		showFullScreenIcon="true"
+		musicAndScreenIconsTopPadding="10"
+		musicAndScreenIconsSpacing="15"
+		musicAndScreenIconsColor="DDDDDD"
+		musicAndScreenIconsOverBrightness="0.4"
+		socialIconsTopPadding="8"
+		socialIconsSpacing="6"
+		socialIconsOverBrightness="-0.1"
+		
+		showPreloader="true"
+		preloaderColor="333333"
+		preloaderAlpha="0.5"
+		
+	/>
+	
+	<music enabled="true" bufferTime="3000" volume="0.9">
+		<track src="music/1.mp3"/>
+		
+	</music>
+	
+	<socialnetworks>
+		<icon src="images/icons/social/facebook.png" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+		<icon src="images/icons/social/twitter.png" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+		<icon src="images/icons/social/myspace.png" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+		<icon src="images/icons/social/linkedin.png" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+		<icon src="images/icons/social/flickr.png" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+	</socialnetworks>
+	
+	<footertext topPadding="8" leftPadding="40">
+		<![CDATA[<footer>©2013 收集整理 <a href="http://www.cssmoban.com/" target="_blank" class="footerlink">模板之家</a>.</footer>]]>
+	</footertext>
+	
+</settings>

@@ -1,0 +1,30 @@
+normal_text{
+	font-size:12px;
+	color:#D9D5D6;
+}
+
+title_text{
+font-size:12px;
+color:#ffffff;
+font-weight:bold;
+}
+
+twtrTitle{
+font-size:18px;
+color:#4B3B3E;
+font-weight:bold;
+}
+
+success_txt{
+color:#ffffff;
+}
+
+
+a {
+	color: #FFFFCC;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+

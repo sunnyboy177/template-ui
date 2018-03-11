@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE SLIDESHOW MODULE.  TO CREATE MULIPLE SLIDESHOWS, DUPLICATE THIS XML FILE AND GIVE IT A UNIQUE FILE NAME -->
+
+<data>
+	
+	<settings>
+		
+		<!-- Choose to use a CSS file, true/false -->
+		<useCSS>true</useCSS>
+		
+		<!-- The url of your CSS file -->
+		<cssURL>css/home.css</cssURL>
+		
+		<!-- Choose to use the gallery arrows, true/false -->
+		<useArrows>true</useArrows>
+		
+		<!-- Choose to use the slide number text, true/false -->
+		<useStatusMessage>true</useStatusMessage>
+		
+		<!-- Choose to use the play/pause buttons, true/false -->
+		<usePlayPause>true</usePlayPause>
+		
+		<!-- Choose to auto-play the slideshow, true/false -->
+		<autoPlay>true</autoPlay>
+		
+		<!-- Setting this to true will reverse the transition if the left navigation button is clicked -->
+		<backReverse>true</backReverse>
+		
+		<!-- The slide number prefix -->
+		<statusText>图片</statusText>
+		
+		<!-- The text for the play button -->
+		<playText>播放</playText>
+		
+		<!-- The text for the pause button -->
+		<pauseText>暂停</pauseText>
+		
+		<!-- The button background color -->
+		<buttonBgColor>0x000000</buttonBgColor>
+		
+		<!-- The button background color on mouse over -->
+		<buttonBgHoverColor>0xFFFFFF</buttonBgHoverColor>
+		
+		<!-- The button text and arrow color -->
+		<buttonTextArrowColor>0xFFFFFF</buttonTextArrowColor>
+		
+		<!-- The button text and arrow color on mouse over -->
+		<buttonTextArrowHoverColor>0x000000</buttonTextArrowHoverColor>
+		
+		<!-- The background color for the slide info titles -->
+		<infoTitleBgColor>0xFFFFFF</infoTitleBgColor>
+		
+		<!-- The transparency level for the slide info titles, 0-100 -->
+		<infoTitleBgAlpha>100</infoTitleBgAlpha>
+		
+		<!-- The background color for the slide info descriptions -->
+		<infoDescriptionBgColor>0x312726</infoDescriptionBgColor>
+		
+		<!-- The transparency level for the slide info descipriptions -->
+		<infoDescriptionBgAlpha>100</infoDescriptionBgAlpha>
+		
+		<!-- Settinng this to true will always set the total width of the info box to the exact width of the title text, true/false -->
+		<infoHasTitleWidth>false</infoHasTitleWidth>
+		
+		<!-- If "infoHasTitleWidth" is set to "false", you can declare an info box width here -->
+		<descriptionWidth>550</descriptionWidth>
+		
+		<!-- Randomize slide order, true/false -->
+		<randomizeItems>false</randomizeItems>
+	
+	</settings>
+	
+	<!-- 
+	
+	Transition Options: 
+	
+		1) fade
+		2) wipe
+		3) slide
+		4) blinds
+		
+	Start Position Options: 
+	
+		1) top
+		2) bottom
+		3) left
+		4) right
+	
+	-->
+	
+	<slides>
+		
+		<!-- BEGIN SLIDE -->
+		<item>
+			
+			<!-- The url of your slide image -->
+			<url>images/slideshow/1.jpg</url>
+			
+			<!-- The transition type (see options above) -->
+			<transition>fade</transition>
+			
+			<!-- The starting direction of the transition (see options above) -->
+			<startPosition>bottom</startPosition>
+			
+			<!-- The delay in seconds before this slide will appear (only applicable if "autoPlay" is set to "true") -->
+			<delay>5</delay>
+			
+			<!-- The info title text, HTML/CSS supported (delete this if you don't wish to use an info title) -->
+			<title><![CDATA[<!-- BEGIN --><title_text>中文标题</title_text><!-- END -->]]></title>
+			
+			<!-- The info description text, HTML/CSS supported (delete this if you don't wish to use a description title) -->
+			<description><![CDATA[<!-- BEGIN --><normal_text>中文支持Aliquam ultricies imperdiet consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sapien neque, pulvinar pharetra bibendum dictum, faucibus sit amet mi. Donec tortor nisi, malesuada et facilisis quis, adipiscing auctor purus. In ultrices feugiat condimentum. In congue blandit augue vel venenatis. Quisque non urna urna. Ut tortor odio, gravida quis pellentesque et, varius a eros.</normal_text><!-- END -->]]></description>
+		
+		</item>
+		<!-- END SLIDE -->
+		
+		<item>
+		
+			<url>images/slideshow/2.jpg</url>
+			<transition>blinds</transition>
+			<startPosition>right</startPosition>
+			<delay>5</delay>
+			
+			<title><![CDATA[<!-- BEGIN --><title_text>中文标题</title_text><!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Sed commodo velit quis neque lobortis nec euismod mauris ullamcorper. Cras feugiat dapibus gravida. Morbi vel elit eu ligula dignissim mattis id eget urna. Suspendisse dui dui, fermentum sit amet iaculis vehicula, interdum ac odio. Integer ut aliquam ipsum. Nunc ullamcorper sollicitudin orci eu commodo. Pellentesque ac commodo justo. Quisque enim nunc, sodales a convallis at, accumsan vel quam. Nulla volutpat hendrerit pharetra. Curabitur quis gravida nisi. Sed sit amet quam lectus. Donec ultrices nisi at tellus dictum vulputate.</normal_text><!-- END -->]]></description>
+		
+		</item>
+		
+		<item>
+		
+			<url>images/slideshow/3.jpg</url>
+			<transition>wipe</transition>
+			<startPosition>left</startPosition>
+			<delay>5</delay>
+			
+			<title><![CDATA[<!-- BEGIN --><title_text>中文标题</title_text><!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Nam id diam non lacus fringilla semper sed id ante. Donec a nisi enim. Nam posuere mi sem. Nulla sodales, tellus ut placerat aliquet, elit nibh varius magna, vitae auctor mi odio non diam. Praesent vel risus at diam lobortis facilisis. Nullam ut metus non sem dapibus gravida in ut tellus. Curabitur vel cursus massa. Morbi feugiat turpis consectetur tellus dictum varius. Nulla vulputate, elit in congue suscipit, ligula tortor consectetur ipsum, at accumsan elit felis eget tellus.</normal_text><!-- END -->]]></description>
+		
+		</item>
+	
+		<item>
+		
+			<url>images/slideshow/4.jpg</url>
+			<transition>slide</transition>
+			<startPosition>right</startPosition>
+			<delay>5</delay>
+			
+			<title><![CDATA[<!-- BEGIN --><title_text>中文标题</title_text><!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Nam id diam non lacus fringilla semper sed id ante. Donec a nisi enim. Nam posuere mi sem. Nulla sodales, tellus ut placerat aliquet, elit nibh varius magna, vitae auctor mi odio non diam. Praesent vel risus at diam lobortis facilisis. Nullam ut metus non sem dapibus gravida in ut tellus. Curabitur vel cursus massa. Morbi feugiat turpis consectetur tellus dictum varius. Nulla vulputate, elit in congue suscipit, ligula tortor consectetur ipsum, at accumsan elit felis eget tellus.</normal_text><!-- END -->]]></description>
+		
+		</item>
+		
+		<item>
+		
+			<url>images/slideshow/5.jpg</url>
+			<transition>slide</transition>
+			<startPosition>right</startPosition>
+			<delay>5</delay>
+
+		
+		</item>
+		
+		<item>
+		
+			<url>images/slideshow/6.jpg</url>
+			<transition>blinds</transition>
+			<startPosition>top</startPosition>
+			<delay>5</delay>
+			
+			<title><![CDATA[<!-- BEGIN --><title_text>中文标题</title_text><!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus egestas gravida tempor. Quisque lacinia, sem scelerisque ultricies pulvinar, risus sapien aliquam justo, dignissim suscipit ipsum risus euismod nisl. Fusce mattis scelerisque dui sit amet mattis. Duis nec sem eget leo molestie sodales quis sed nisi. Donec ac ante eget urna tempus elementum in eu arcu. Donec vel euismod enim. Donec dictum varius risus, vitae convallis dui tempus in. Quisque a urna ut eros tempus vehicula. Sed eu posuere ante. Suspendisse eget diam ipsum. Donec ac venenatis justo. Mauris facilisis viverra felis feugiat commodo. In rhoncus blandit varius.</normal_text><!-- END -->]]></description>
+		
+		</item>
+		
+		
+	</slides>
+	
+
+</data>
+
+
+
+
+

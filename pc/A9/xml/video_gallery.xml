@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE PORTFOLIO MODULE.  TO CREATE MULIPLE PORTFOLIO PAGES, DUPLICATE THIS XML FILE AND GIVE IT A UNIQUE FILE NAME -->
+
+<data>
+	
+	<settings>
+		
+		<!-- Choose to use a CSS file -->
+		<useCSS>true</useCSS>
+		
+		<!-- The URL of your CSS file if used -->
+		<cssURL>css/portfolio.css</cssURL>
+		
+		<!-- Always display the maximum number of thumbs that will fit, true/false -->
+		<maxThumbsPerPage>true</maxThumbsPerPage>
+		
+		<!-- The total thumbs to show per page -->
+		<thumbsPerPage>4</thumbsPerPage>
+		
+		<!-- The display width of your thumbnail -->
+		<thumbWidth>250</thumbWidth>
+		
+		<!-- The display height of the thumbnail -->
+		<thumbHeight>150</thumbHeight>
+		
+		<!-- The distance in pixels between your thumbnails -->
+		<thumbSpacing>22</thumbSpacing>
+		
+		<!-- The thumbnail image 2px border color -->
+		<thumbBorderColor>#161616</thumbBorderColor>
+		
+		<!-- Choose to use thumbnail mouse over animation -->
+		<useThumbRollOverAnimation>true</useThumbRollOverAnimation>
+		
+		<!-- Choose to use thumbnail titles, true/false -->
+		<useThumbTitles>true</useThumbTitles>
+		
+		<!-- The background color of your thumb titles -->
+		<thumbTitleBgColor>#ffffff</thumbTitleBgColor>
+		
+		<!-- Choose to use thumbnail descriptions -->
+		<useThumbDescriptions>false</useThumbDescriptions>
+		
+		<!-- the thumbnail description background color -->
+		<thumbDescriptionBgColor>#161616</thumbDescriptionBgColor>
+		
+		<!-- The color of the thumbnail previous/next arrows -->
+		<arrowColor>#ffffff</arrowColor>
+		
+		<!-- The mouse over color of the thumbnail previous/next arrows -->
+		<arrowRollOverColor>#A0855A</arrowRollOverColor>
+		
+		<!-- The title of the portfolio -->
+		<galleryTitle>视频展示</galleryTitle>
+		
+		<!-- The text and arrow color of right side section -->
+		<rightSideSectionColor>#ffffff</rightSideSectionColor>
+		
+		<!-- The text and arrow color on mouse over of right side section -->
+		<rightSideSectionColorOver>#000000</rightSideSectionColorOver>
+		
+		<!-- The background color of the right side section -->
+		<rightSideBgColor>A0855A</rightSideBgColor>
+		
+		<!-- The background color on mouse over (only applies to arrows) of the right side section -->
+		<rightSideBgColorOver>#ffffff</rightSideBgColorOver>
+		
+		<!-- The prefix to the page numbers -->
+		<pageNumberText>页面</pageNumberText>
+		
+		<!-- The prefix to the item numbers inside a large item -->
+		<itemNumberText>项目</itemNumberText>
+		
+		<!-- The color of the exit button -->
+		<exitButtonColor>#FFFFFF</exitButtonColor>
+		
+		<!-- The color of the exit button on mouse over -->
+		<exitButtonHoverColor>#A0855A</exitButtonHoverColor>
+		
+		<!-- The number text color for inside a portfolio item -->
+		<numberTextColor>#A0855A</numberTextColor>
+		
+		<!-- The mouse over color for numbers inside a portfolio item -->
+		<numberTextHoverColor>#FFFFFF</numberTextHoverColor>
+		
+		<!-- The preloader color for the light-box -->
+		<preloaderColor>#FFFFFF</preloaderColor>
+		
+		<!-- The color of the scroll arrows -->
+		<scrollColor>#FFFFFF</scrollColor>
+		
+		<!-- The color of the scroll arrows on mouse over -->
+		<scrollOverColor>#A0855A</scrollOverColor>
+		
+		<!-- The easing time to be applied to a single scroll click, in seconds -->
+		<scrollEasingTime>1</scrollEasingTime>
+		
+		<!-- The amount of pixels to scroll for a single scroll click -->
+		<scrollDistance>30</scrollDistance>
+		
+		<!-- The initial video volume -->
+		<videoVolume>100</videoVolume>
+		
+		<!-- The video buffering time in seconds -->
+		<videoBuffering>3</videoBuffering>
+
+		<autoStartVideo>false</autoStartVideo>
+		
+	
+	</settings>
+	
+	
+	<gallery>
+	
+	
+		<item>
+			
+			<thumb>
+				
+				<url>images/portfolio/7.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+						
+			
+			</thumb>
+			
+			<large>
+				
+				<mediaWidth>640</mediaWidth>
+				<mediaHeight>360</mediaHeight>
+				
+				<transitionIn>wipe</transitionIn>
+				<transitionOut>wipe</transitionOut>
+				
+				<descriptionWidth>350</descriptionWidth>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+				<description>视频播放器像素可以在本XML文件调整“mediaWidth:640 mediaHeight:360”视频描述Morbi fermentum, orci sit amet lacinia vehicula, sapien turpis vulputate velit, iaculis viverra massa arcu id ante. Pellentesque semper urna ac velit facilisis dignissim.</description>
+				
+				<media>
+				
+					<url isYouTube="false" videoPreview="images/video/pourelle_no_bg.jpg">video/video.flv</url>
+					
+				</media>
+			
+			</large>
+		
+		</item>
+
+		<item>
+			
+			<thumb>
+				
+				<url>images/portfolio/1.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+						
+			
+			</thumb>
+			
+			<large>
+				
+				<mediaWidth>640</mediaWidth>
+				<mediaHeight>360</mediaHeight>
+				
+				<transitionIn>wipe</transitionIn>
+				<transitionOut>wipe</transitionOut>
+				
+				<descriptionWidth>350</descriptionWidth>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+				<description>视频描述Morbi fermentum, orci sit amet lacinia vehicula, sapien turpis vulputate velit, iaculis viverra massa arcu id ante. Pellentesque semper urna ac velit facilisis dignissim.</description>
+				
+				<media>
+				
+					<url isYouTube="false" videoPreview="images/video/pourelle_no_bg.jpg">video/video.flv</url>
+					
+				</media>
+			
+			</large>
+		
+		</item>
+
+
+
+
+		<item>
+			
+			<thumb>
+				
+				<url>images/portfolio/5.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+						
+			
+			</thumb>
+			
+			<large>
+				
+				<mediaWidth>640</mediaWidth>
+				<mediaHeight>360</mediaHeight>
+				
+				<transitionIn>wipe</transitionIn>
+				<transitionOut>wipe</transitionOut>
+				
+				<descriptionWidth>350</descriptionWidth>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+				<description>视频描述Morbi fermentum, orci sit amet lacinia vehicula, sapien turpis vulputate velit, iaculis viverra massa arcu id ante. Pellentesque semper urna ac velit facilisis dignissim.</description>
+				
+				<media>
+				
+					<url isYouTube="false" videoPreview="images/video/pourelle_no_bg.jpg">video/video.flv</url>
+					
+				</media>
+			
+			</large>
+		
+		</item>
+
+		<item>
+			
+			<thumb>
+				
+				<url>images/portfolio/4.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+						
+			
+			</thumb>
+			
+			<large>
+				
+				<mediaWidth>640</mediaWidth>
+				<mediaHeight>360</mediaHeight>
+				
+				<transitionIn>wipe</transitionIn>
+				<transitionOut>wipe</transitionOut>
+				
+				<descriptionWidth>350</descriptionWidth>
+				
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题</thumb_title><!-- END -->]]></title>
+				<description>视频描述Morbi fermentum, orci sit amet lacinia vehicula, sapien turpis vulputate velit, iaculis viverra massa arcu id ante. Pellentesque semper urna ac velit facilisis dignissim.</description>
+				
+				<media>
+				
+					<url isYouTube="false" videoPreview="images/video/pourelle_no_bg.jpg">video/video.flv</url>
+					
+				</media>
+			
+			</large>
+		
+		</item>
+
+	
+	
+	</gallery>
+
+</data>

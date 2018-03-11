@@ -1,0 +1,69 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contact>
+		
+	<settings
+		
+		phpFileURL="php/mail.php"
+		
+		imageBgColor="FFFFFF"
+		imageBgAlpha="0.3"
+		imageBorderColor="FFFFFF"
+		imageBorderThickness="1"
+		imageShadowColor="999999"
+		imageShadowAlpha="0.5"
+		imagePreloaderColor="333333"
+		imagePreloaderAlpha="0.5"
+		imageCaptionBgColor="000000"
+		imageCaptionBgAlpha="0.3"
+		imageCaptionBlurredBg="true"
+		imageCaptionBgBlurAmount="32"
+		imageCaptionPadding="5"
+		imageOverBrightness="0"
+		
+		fieldFont="Arial"
+		filedFontSize="12"
+		fieldFontColor="666666"
+		fieldBgColor="DDDDDD"
+		fieldBgAlpha="0.4"
+		focusedFieldBgColor="DDDDDD"
+		focusedFieldBgAlpha="0.6"
+		focusedFieldBorderColor="DDDDDD"
+		sendButtonLabel="SEND MESSAGE"
+		sendButtonColor="31484F"
+		sendButtonOverColor="777777"
+		infoMessageFontColor="E15151"
+		
+		scrollBarTrackWidth="1"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="3"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor="999999"
+	/>
+	
+	<leftColumn width="480">
+		<info topMargin="20" height=""><![CDATA[<p>Integer vel enim mi, sed suscipit neque gravida tortor eu nulla at enim cursus massa malesuada tempus. Praesent congue molestie tristique. Nullam tortor leo, tristique ac tempus eget, vestibulum nec ante. Mauris rhoncus aliquet mauris molestie lectus, lobortis fringilla tortor placerat ac.<br/></p><infotitle>Request Form</infotitle>]]></info>
+		<form
+			topMargin="10"
+			active="false"
+			successMsg="Your message has been sent. Thank you!"
+			warningMsg="Sending... please wait"
+			errorMsg="There was an error sending the email!"
+		>
+			<name label="Name" errorMsg="Please enter your Name." required="true"/>
+			<email label="Email" errorMsg1="Please enter your Email address." errorMsg2="Please enter the valid email address." required="true"/>
+			<phone label="Phone" errorMsg="" required="false"/>
+			<message label="Message" errorMsg="Please enter your Message." required="true"/>
+		</form>
+	</leftColumn>
+	
+	<rightColumn leftMargin="40">
+		<image src="images/contact/img2.jpg" width="380" height="259" topMargin="20"><![CDATA[]]></image>
+		<text topMargin="20"><![CDATA[<infotitle>Contact Information</infotitle><p class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo urna, convallis at tincidunt vel, convallis quis nisi.</p><space></space><space></space><p class="grey"><b>RTC Ipsum Studios</b></p><space></space><p class="grey">123 Main Street #7, San Francisco, CA, 94101</p><space></space><p class="grey">Phone: (415) 000-1234<br/>FAX: (415) 000-1235</p><space></space><p class="grey">Email:  <a href="mailto:info@ipsum.com">info@ipsum.com</a></p><space></space><space></space><p class="grey">Monday-Friday: 09:00 - 18:00<br/>Saturday: 10:00 - 15:00</p>]]></text>
+	</rightColumn>
+	
+</contact>

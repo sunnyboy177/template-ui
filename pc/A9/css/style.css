@@ -1,0 +1,30 @@
+.textTitle {
+
+	font-family: Microsoft YaHei;
+	font-size: 28px;
+
+}
+
+.title {
+
+	color: #FF0000;
+
+}
+
+.contactTitle {
+
+	color: #FFFFFF;
+	
+}
+
+a {
+
+	color: #CCCCCC;	
+	
+}
+
+a:hover {
+
+	text-decoration: underline;
+	
+}

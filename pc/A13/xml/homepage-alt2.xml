@@ -1,0 +1,200 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<homepage>
+	
+	<!-- Banner Rotator -->
+	<rotator>
+
+		<settings
+	
+			bannerWidth="904"
+			bannerHeight="254"
+			bannerBgColor="F3F3F3"
+			bannerBgAlpha="1"
+			bannerBackground=""
+			bannerCornerRadius=""
+			bannerShadowColor="666666"
+			bannerShadowAlpha="0.6"
+			autoPlay="true"
+			imageShowTime="6"
+			randomImages="false"
+			pauseOnMouseOver="false"
+			repeatMode="true"
+			
+			imageTransitionType="5"
+			imageTransitionDuration="0.7"
+			imageExposureDelay="0.6"
+			imageExposureStrength="3"
+			randomImageTransitions="false"
+			squareSize="60"
+			
+			imageAreaWidth="900"
+			imageAreaHeight="250"
+			imageAreaCornerRadius=""
+			imageAreaXPosition="2"
+			imageAreaYPosition="2"
+			
+			captionTextShadowColor="333333"
+			captionTextShadowAlpha="0.4"
+			
+			showControls="true"
+			controlsType="2"
+			controlsPosition="right"
+			controlsXOffset="20"
+			controlsYOffset="10"
+			controlsAutoHide="false"
+			buttonSpacing="7"
+			buttonBgColor="999999"
+			buttonOverBgColor="E9E9E9"
+			buttonSelectedBgColor="E9E9E9"
+			showButtonShadow="true"
+			buttonShadowColor=""
+			showPlayPauseButton="true"
+			playPauseIconColor="666666"
+			playPauseIconOverColor="8C4A4A"
+			
+			showTimer="true"
+			timerBarPosition="bottom"
+			timerBarHeight="3"
+			timerBarColor="FFFFFF"
+			timerBarAlpha="0.3"
+			
+			showPreloader="true"
+			preloaderColor="FFFFFF"
+		/>
+	
+		<banners>
+			
+			<banner>
+				<image src="images/banners/home1.jpg"/>
+			</banner>
+			
+			<banner>
+				<image src="images/banners/home2.jpg"/>
+			</banner>
+			
+			<banner>
+				<image src="images/banners/home3.jpg"/>
+			</banner>
+			
+		</banners>
+	
+	</rotator>
+	
+	
+	<!-- Slogan -->
+	<slogan width="" topMargin="25" leftMargin="0">
+		<![CDATA[<homeslogan>Welcome to <font color="#C22121">Estetica</font> – a Modern and Clean Business Flash Template.</homeslogan>]]>
+	</slogan>
+	
+	
+	<!-- Top Separator Line -->
+	<topSeparator width="300" topMargin="20" leftMargin="300" color="666666"/>
+	
+	
+	<!-- Teasers -->
+	<teasers topMargin="20">
+		
+		<settings
+			
+			teasersType="1"
+			teasersVisible="4"
+			teaserWidth="200"
+			teaserHeight="85"
+			teaserSpacing="34"
+			
+			imageBgColor="FFFFFF"
+			imageBgAlpha="0.3"
+			imageBorderColor="F3F3F3"
+			imageBorderThickness="2"
+			imageShadowColor="999999"
+			imageShadowAlpha="0.5"
+			imagePreloaderColor="333333"
+			imagePreloaderAlpha="0.5"
+			imageCaptionBgColor="000000"
+			imageCaptionBgAlpha="0.3"
+			imageCaptionBlurredBg="true"
+			imageCaptionBgBlurAmount="32"
+			imageCaptionPadding="3"
+			imageOverBrightness="0.4"
+			imageTopMargin=""
+			imageRightMargin=""
+			
+			leftNavButtonURL="images/icons/left-arrow-type1.png"
+			rightNavButtonURL="images/icons/right-arrow-type1.png"
+			navButtonColor="757575"
+			navButtonOverColor="333333"
+			navButtonPadding="10"
+		/>
+		
+		<teaser>
+			<image src="images/homepage/teaser1.jpg" clickLink="#/interior-design-1" clickTarget="_self"/>
+			<caption><![CDATA[]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser2.jpg" clickLink="#/structural-engineering-1" clickTarget="_self"/>
+			<caption><![CDATA[]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser3.jpg" clickLink="#/construction-administration-1" clickTarget="_self"/>
+			<caption><![CDATA[]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser4.jpg" clickLink="#/services-type1" clickTarget="_self"/>
+			<caption><![CDATA[]]></caption>
+		</teaser>
+		
+	</teasers>
+	
+	
+	<!-- Bottom Content Blocks -->
+	<bottomContent topMargin="20">
+	
+		<settings
+			
+			listItemMarkerURL="images/icons/list-item-marker-type2.png"
+			listItemMarkerTopPadding="6"
+			listItemLeftPadding="14"
+			listItemBottomPadding="3"
+			
+			scrollBarTrackWidth="2"
+			scrollBarTrackColor="CCCCCC"
+			scrollBarTrackAlpha="0.5"
+			scrollBarSliderOverWidth="4"
+			scrollBarSliderColor="B5B5B5"
+			scrollBarSliderOverColor=""
+		
+		/>
+		
+		<cols>
+			<col>
+				<textblock width="200" topMargin="0">
+					<text><![CDATA[<columnheading>Interior Design</columnheading><p>Nam ante ipsum dictum egestas pharetra ac. Aenean non ornare lectus. Donec facilisis posuere vehicula et consectetur feugiat, lacus dui vestibulum risus, a elementum lacus velit.</p><space></space><p><a href="#/interior-design-1" target="_self" class="columnlink">Learn more</a></p>]]></text>
+				</textblock>
+			</col>
+			<col>
+				<textblock width="200" topMargin="0" leftMargin="34">
+					<text><![CDATA[<columnheading>Structural Engineering</columnheading><p>Donec aliquet leo eget risus tempor sed bibendum ipsum dignissim. Nam ante ipsum, dictum egestas pharetra ac, tempus ac libero? Aenean non ornare lectus.</p><space></space><p><a href="#/structural-engineering-1" target="_self" class="columnlink">Learn more</a></p>]]></text>
+				</textblock>
+			</col>
+			<col>
+				<textblock width="200" topMargin="0" leftMargin="34">
+					<text><![CDATA[<columnheading>Construction Administration</columnheading><p>Mauris rhoncus aliquet lectus, lobortis fringilla tortor placerat ac. Donec iaculis, dolor et consectetur feugiat, lacus dui vestibulum risus, a elementum lacus velit in tortor.</p><space></space><p><a href="#/construction-administration-1" target="_self" class="columnlink">Learn more</a></p>]]></text>
+				</textblock>
+			</col>
+			<col>
+				<textblock width="200" topMargin="0" leftMargin="34">
+					<text><![CDATA[<columnheading>Landscape Architecture</columnheading><p>Proin at leo a ligula egestas pellentesque. Maecenas porta pretium quam, et rutrum nunc lobortis id. Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque.</p><space></space><p><a href="#/services-type1" target="_self" class="columnlink">Learn more</a></p>]]></text>
+				</textblock>
+			</col>
+		</cols>
+	
+	</bottomContent>
+	
+</homepage>

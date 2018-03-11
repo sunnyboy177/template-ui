@@ -1,0 +1,198 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<homepage>
+	
+	<!-- Banner Rotator -->
+	<rotator>
+
+		<settings
+	
+			bannerWidth="904"
+			bannerHeight="254"
+			bannerBgColor="F3F3F3"
+			bannerBgAlpha="1"
+			bannerBackground=""
+			bannerCornerRadius=""
+			bannerShadowColor="666666"
+			bannerShadowAlpha="0.6"
+			autoPlay="true"
+			imageShowTime=""
+			randomImages="false"
+			pauseOnMouseOver="false"
+			repeatMode="true"
+			
+			imageTransitionType="5"
+			imageTransitionDuration="0.7"
+			imageExposureDelay="0.6"
+			imageExposureStrength="3"
+			randomImageTransitions="false"
+			squareSize="60"
+			
+			imageAreaWidth="900"
+			imageAreaHeight="250"
+			imageAreaCornerRadius=""
+			imageAreaXPosition="2"
+			imageAreaYPosition="2"
+			
+			captionTextShadowColor="333333"
+			captionTextShadowAlpha="0.4"
+			
+			showControls="true"
+			controlsType="2"
+			controlsPosition="right"
+			controlsXOffset="20"
+			controlsYOffset="10"
+			controlsAutoHide="false"
+			buttonSpacing="7"
+			buttonBgColor="999999"
+			buttonOverBgColor="E9E9E9"
+			buttonSelectedBgColor="E9E9E9"
+			showButtonShadow="true"
+			buttonShadowColor=""
+			showPlayPauseButton="true"
+			playPauseIconColor="666666"
+			playPauseIconOverColor="8C4A4A"
+			
+			showTimer="true"
+			timerBarPosition="bottom"
+			timerBarHeight="3"
+			timerBarColor="FFFFFF"
+			timerBarAlpha="0.3"
+			
+			showPreloader="true"
+			preloaderColor="FFFFFF"
+		/>
+	
+		<banners>
+			
+			<banner>
+				<image src="images/banners/home1.jpg" showTime="5"/>
+			</banner>
+			
+			<banner>
+				<image src="images/banners/home2.jpg" showTime="7"/>
+				<textblock xPos="580" yPos="30" startDelay="1" bgColor="E15151" bgAlpha="0.8" textPadding="3" shadow="true">
+					<start_animation type="Fade" duration="1" exposureStrength="2" moveFrom="right" moveOffset="40"/>
+					<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="22" color="#FFFFFF"><b>ESTETICA WEBSITE TEMPLATE</b></font>]]></text>
+				</textblock>
+				<textblock xPos="620" yPos="61" startDelay="1.5" bgColor="FFFFFF" bgAlpha="0.8" textPadding="3" shadow="true">
+					<start_animation type="Fade" duration="1" exposureStrength="2" moveFrom="right" moveOffset="10"/>
+					<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="16" color="#666666"><b>Effective Solution to Reach Your Audience</b></font>]]></text>
+				</textblock>
+			</banner>
+			
+			<banner>
+				<image src="images/banners/home3.jpg" showTime="5"/>
+			</banner>
+			
+		</banners>
+	
+	</rotator>
+	
+	
+	<!-- Slogan -->
+	<slogan width="" topMargin="25" leftMargin="0">
+		<![CDATA[<homeslogan>Welcome to <font color="#C22121">Estetica</font> – a Modern and Clean Business Flash Template.</homeslogan>]]>
+	</slogan>
+	
+	
+	<!-- Teasers -->
+	<teasers topMargin="20">
+		
+		<settings
+			
+			teasersType="1"
+			teasersVisible="3"
+			teaserWidth="200"
+			teaserHeight="85"
+			teaserSpacing="30"
+			
+			imageBgColor="FFFFFF"
+			imageBgAlpha="0.3"
+			imageBorderColor="FFFFFF"
+			imageBorderThickness="1"
+			imageShadowColor="999999"
+			imageShadowAlpha="0.5"
+			imagePreloaderColor="333333"
+			imagePreloaderAlpha="0.5"
+			imageCaptionBgColor="000000"
+			imageCaptionBgAlpha="0.3"
+			imageCaptionBlurredBg="true"
+			imageCaptionBgBlurAmount="32"
+			imageCaptionPadding="3"
+			imageOverBrightness="0.4"
+			imageTopMargin=""
+			imageRightMargin=""
+			
+			leftNavButtonURL="images/icons/left-arrow-type1.png"
+			rightNavButtonURL="images/icons/right-arrow-type1.png"
+			navButtonColor="757575"
+			navButtonOverColor="333333"
+			navButtonPadding="10"
+		/>
+		
+		<teaser>
+			<image src="images/homepage/teaser1.jpg" clickLink="#/interior-design-1" clickTarget="_self"/>
+			<caption><![CDATA[<imagecaption><center>Interior Design</center></imagecaption>]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser2.jpg" clickLink="#/structural-engineering-1" clickTarget="_self"/>
+			<caption><![CDATA[<imagecaption><center>Structural Engineering</center></imagecaption>]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser3.jpg" clickLink="#/construction-administration-1" clickTarget="_self"/>
+			<caption><![CDATA[<imagecaption><center>Construction Administration</center></imagecaption>]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser4.jpg" clickLink="#/services-type1" clickTarget="_self"/>
+			<caption><![CDATA[<imagecaption><center>Landscape Architecture</center></imagecaption>]]></caption>
+		</teaser>
+		
+		<teaser>
+			<image src="images/homepage/teaser5.jpg" clickLink="#/services-type1" clickTarget="_self"/>
+			<caption><![CDATA[<imagecaption><center>Master Planning</center></imagecaption>]]></caption>
+		</teaser>
+		
+	</teasers>
+	
+	
+	<!-- Bottom Separator Line -->
+	<bottomSeparator width="800" topMargin="30" leftMargin="50" color="666666"/>
+	
+	
+	<!-- Bottom Content Blocks -->
+	<bottomContent topMargin="20">
+	
+		<settings
+			
+			listItemMarkerURL="images/icons/list-item-marker-type2.png"
+			listItemMarkerTopPadding="6"
+			listItemLeftPadding="14"
+			listItemBottomPadding="3"
+			
+			scrollBarTrackWidth="2"
+			scrollBarTrackColor="CCCCCC"
+			scrollBarTrackAlpha="0.5"
+			scrollBarSliderOverWidth="4"
+			scrollBarSliderColor="B5B5B5"
+			scrollBarSliderOverColor=""
+		
+		/>
+		
+		<list width="660" topMargin="0" leftMargin="120" markerColor="E15151">
+			<item><![CDATA[<p>Aenean non ornare lectus. Donec facilisis posuere vehicula. Nam in orci turpis, congue volutpat augue.</p>]]></item>
+			<item><![CDATA[<p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat.</p>]]></item>
+			<item><![CDATA[<p>Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Donec iaculis, dolor et consectetur feugiat.</p>]]></item>
+			<item><![CDATA[<p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat.</p>]]></item>
+			<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit vulputate quis consequat nunc placerat.</p>]]></item>
+		</list>
+	
+	</bottomContent>
+	
+</homepage>

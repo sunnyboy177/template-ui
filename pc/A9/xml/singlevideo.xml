@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<settings>
+		
+		<!-- The initial video volume -->
+		<volume>100</volume>
+		
+		<!-- The video volume in seconds -->
+		<buffering>3</buffering>
+		
+		<!-- Choose to auto-play the video, true/false -->
+		<autoStart>false</autoStart>
+		
+		<!-- The top-border in pixels -->
+		<borderTop>10</borderTop>
+		
+		<!-- The bottom-border in pixels -->
+		<borderBottom>10</borderBottom>
+		
+		<!-- The left-border in pixels -->
+		<borderLeft>10</borderLeft>
+		
+		<!-- The right-border in pixels -->
+		<borderRight>10</borderRight>
+		
+		<!-- The border color -->
+		<borderColor>#144D68</borderColor>
+		
+		<!-- The border transparency level, 0-100 -->
+		<borderTransparency>0</borderTransparency>
+
+	</settings>
+	
+	<media>
+		
+		<!-- The video preview image (optional) -->
+		<previewImage>images/video/abyss_single_video.jpg</previewImage>
+		
+		<!-- The video url -->
+		<video>video/video.flv</video>
+	
+	</media>
+	
+</data>

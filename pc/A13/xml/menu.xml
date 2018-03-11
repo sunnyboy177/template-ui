@@ -1,0 +1,503 @@
+﻿
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+	
+	<page>
+		<menuTitle>网站首页</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>home</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg1.jpg</bgImage>
+		<moduleURL>homepage.swf</moduleURL>
+		<moduleXML>xml/homepage.xml</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>true</clickable>
+		
+		<subPage>
+			<menuTitle>主页1</menuTitle>
+			<pageTitle>null</pageTitle>
+			<deepLinkURL>home</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>homepage.swf</moduleURL>
+			<moduleXML>xml/homepage.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>主页2</menuTitle>
+			<pageTitle>null</pageTitle>
+			<deepLinkURL>home-alt1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>homepage.swf</moduleURL>
+			<moduleXML>xml/homepage-alt1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>主页3</menuTitle>
+			<pageTitle>null</pageTitle>
+			<deepLinkURL>home-alt2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>homepage.swf</moduleURL>
+			<moduleXML>xml/homepage-alt2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>公司简介</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg2.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>关于我们</menuTitle>
+			<pageTitle>关于我们</pageTitle>
+			<deepLinkURL>about-us</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>standardpage.swf</moduleURL>
+			<moduleXML>xml/about-us.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>公司风采</menuTitle>
+			<pageTitle>公司风采</pageTitle>
+			<deepLinkURL>philosophy</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>standardpage.swf</moduleURL>
+			<moduleXML>xml/philosophy.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+
+		<subPage>
+			<menuTitle>团队成员</menuTitle>
+			<pageTitle>团队成员</pageTitle>
+			<deepLinkURL>our-team</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>team.swf</moduleURL>
+			<moduleXML>xml/team.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Lanny Carter</pageTitle>
+				<deepLinkURL>lanny-carter</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/team/lanny-carter.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+		</subPage>
+		
+		<subPage>
+			<menuTitle>合作伙伴</menuTitle>
+			<pageTitle>合作伙伴</pageTitle>
+			<deepLinkURL>our-clients</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>standardpage.swf</moduleURL>
+			<moduleXML>xml/clients.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>服务项目</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg3.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>项目1</menuTitle>
+			<pageTitle>项目1</pageTitle>
+			<deepLinkURL>services-type1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>services.swf</moduleURL>
+			<moduleXML>xml/services-type1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Interior Design</pageTitle>
+				<deepLinkURL>interior-design-1</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/services/interior-design.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Structural Engineering</pageTitle>
+				<deepLinkURL>structural-engineering-1</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/services/structural-engineering.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Construction Administration</pageTitle>
+				<deepLinkURL>construction-administration-1</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/services/construction-administration.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+		</subPage>
+		
+		<subPage>
+			<menuTitle>项目2</menuTitle>
+			<pageTitle>项目2</pageTitle>
+			<deepLinkURL>services-type2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>services.swf</moduleURL>
+			<moduleXML>xml/services-type2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Interior Design</pageTitle>
+				<deepLinkURL>interior-design-2</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/services/interior-design.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+			<subPage>
+				<menuTitle>null</menuTitle>
+				<pageTitle>Structural Engineering</pageTitle>
+				<deepLinkURL>structural-engineering-2</deepLinkURL>
+				<urlTarget>null</urlTarget>
+				<bgImage>null</bgImage>
+				<moduleURL>standardpage.swf</moduleURL>
+				<moduleXML>xml/services/structural-engineering.xml</moduleXML>
+				<showInMenu>false</showInMenu>
+				<showParentPageLink>true</showParentPageLink>
+			</subPage>
+			
+		</subPage>
+		
+		<subPage>
+			<menuTitle>服务报价</menuTitle>
+			<pageTitle>服务报价</pageTitle>
+			<deepLinkURL>pricing-tables</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>services.swf</moduleURL>
+			<moduleXML>xml/pricing-tables.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>新闻中心</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg4.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>最新新闻</menuTitle>
+			<pageTitle>最新新闻</pageTitle>
+			<deepLinkURL>news1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>news.swf</moduleURL>
+			<moduleXML>xml/news1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>热门新闻</menuTitle>
+			<pageTitle>热门新闻</pageTitle>
+			<deepLinkURL>news2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>news.swf</moduleURL>
+			<moduleXML>xml/news2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>历史新闻</menuTitle>
+			<pageTitle>历史新闻</pageTitle>
+			<deepLinkURL>news3</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>news.swf</moduleURL>
+			<moduleXML>xml/news3.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>案例展示</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg5.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>工业设计</menuTitle>
+			<pageTitle>工业设计</pageTitle>
+			<deepLinkURL>portfolio1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>portfolio.swf</moduleURL>
+			<moduleXML>xml/portfolio1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>产品设计</menuTitle>
+			<pageTitle>产品设计</pageTitle>
+			<deepLinkURL>portfolio2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>portfolio.swf</moduleURL>
+			<moduleXML>xml/portfolio2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>包装设计</menuTitle>
+			<pageTitle>包装设计</pageTitle>
+			<deepLinkURL>portfolio3</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>portfolio.swf</moduleURL>
+			<moduleXML>xml/portfolio3.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>模具制作</menuTitle>
+			<pageTitle>模具制作</pageTitle>
+			<deepLinkURL>catalog</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>portfolio.swf</moduleURL>
+			<moduleXML>xml/portfolio4.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>图片展示</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg6.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>经典图片</menuTitle>
+			<pageTitle>经典图片</pageTitle>
+			<deepLinkURL>gallery1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>gallery.swf</moduleURL>
+			<moduleXML>xml/gallery1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>更多图片</menuTitle>
+			<pageTitle>更多图片</pageTitle>
+			<deepLinkURL>gallery2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>gallery.swf</moduleURL>
+			<moduleXML>xml/gallery2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	</page>
+	
+	<page>
+		<menuTitle>在线视频</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg7.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>在线FLV视频</menuTitle>
+			<pageTitle>FLV视频</pageTitle>
+			<deepLinkURL>showreel</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>showreel.swf</moduleURL>
+			<moduleXML>xml/showreel.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+	<subPage>
+			<menuTitle>FLV网络视频</menuTitle>
+			<pageTitle>FLV网络视频</pageTitle>
+			<deepLinkURL>showreel2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>showreel.swf</moduleURL>
+			<moduleXML>xml/showreel2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		
+		previews and Articles
+		
+	</page>
+	
+	<page>
+		<menuTitle>联系我们</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>images/backgrounds/bg8.jpg</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+		
+		<subPage>
+			<menuTitle>风格一</menuTitle>
+			<pageTitle>联系我们</pageTitle>
+			<deepLinkURL>contact1</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>contact.swf</moduleURL>
+			<moduleXML>xml/contact1.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+		<subPage>
+			<menuTitle>风格二</menuTitle>
+			<pageTitle>联系我们</pageTitle>
+			<deepLinkURL>contact2</deepLinkURL>
+			<urlTarget>null</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>contact.swf</moduleURL>
+			<moduleXML>xml/contact2.xml</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+		
+	
+		
+	</page>
+	
+	<page>
+		<menuTitle>友情链接</menuTitle>
+		<pageTitle>null</pageTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>null</urlTarget>
+		<bgImage>null</bgImage>
+		<moduleURL>null</moduleURL>
+		<moduleXML>null</moduleXML>
+		<showInMenu>true</showInMenu>
+		<clickable>false</clickable>
+
+		<subPage>
+			<menuTitle>FLASHDOS</menuTitle>
+			<pageTitle>null</pageTitle>
+			<deepLinkURL>http://www.flashdos.com/</deepLinkURL>
+			<urlTarget>_blank</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>null</moduleURL>
+			<moduleXML>null</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+
+		<subPage>
+			<menuTitle>Monleon微博</menuTitle>
+			<pageTitle>null</pageTitle>
+			<deepLinkURL>http://t.qq.com/Monleon</deepLinkURL>
+			<urlTarget>_blank</urlTarget>
+			<bgImage>null</bgImage>
+			<moduleURL>null</moduleURL>
+			<moduleXML>null</moduleXML>
+			<showInMenu>true</showInMenu>
+			<showParentPageLink>false</showParentPageLink>
+		</subPage>
+
+		
+
+	</page>
+	
+	
+	
+</data>

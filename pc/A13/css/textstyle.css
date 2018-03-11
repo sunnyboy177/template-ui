@@ -1,0 +1,303 @@
+
+/************************* GENERAL ****************************/
+
+/* Page title */
+h1 {
+	font-family: Verdana;
+	color: #C22121;
+	font-size: 16px;
+}
+
+/* Default hyperlink */
+a {
+	color: #4C6066;
+	text-decoration: underline;
+}
+
+/* Default hyperlink on mouse hover */
+a:hover {
+	color: #E15151;
+}
+
+/* Paragraph text */
+p {
+	font-family: Arial;
+	color: #333333;
+	font-size: 13px;
+	leading: 4px;
+}
+
+/* List text */
+li {
+	font-family: Arial;
+	color: #333333;
+	font-size: 13px;
+	leading: 4px;
+}
+
+/* Centering */
+center {
+	text-align: center;
+}
+
+/* Vertical space */
+space {
+	font-size: 1px;
+	leading: 6px;
+}
+
+/* Image caption */
+imagecaption {
+	font-family: Verdana;
+	color: #F3F3F3;
+	font-size: 11px;
+}
+
+/* Link block */
+link {
+	font-family: Verdana;
+	color: #4C6066;
+	font-size: 12px;
+}
+
+/* Parent page link */
+parentpagelink {
+	font-family: Verdana;
+	color: #4C6066;
+	font-size: 12px;
+}
+
+/* The label for "Back to list" icon (used inside the news.swf and porfolio.swf) */
+back-to-list {
+	font-family: Arial;
+	font-size: 12px;
+}
+
+/* Website initiation preloader (used inside the index.swf) */
+preloader {
+	font-family: Verdana;
+	color: #333333;
+	font-size: 9px;
+	text-align: center;
+}
+
+/* Grey color */
+.grey {
+	color: #666666;
+}
+
+/************************* HOME PAGE ***************************/
+
+/* Homepage slogan */
+homeslogan {
+	font-family: Verdana;
+	color: #333333;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Teaser headline (for Homepage alternative layout #1) */
+teaserheading {
+	font-family: Verdana;
+	color: #31484F;
+	font-size: 14px;
+	leading: 8px;
+}
+
+/* Teaser headline hyperlink (for Homepage alternative layout #1) */
+.teaserlink {
+	text-decoration: none;
+}
+
+/* Column heading (for Homepage alternative layout #2) */
+columnheading {
+	font-family: Arial;
+	color: #444444;
+	font-size: 14px;
+	font-weight: bold;
+	leading: 12px;
+}
+
+/* The column "learn more" hyperlink (for Homepage alternative layout #2) */
+.columnlink {
+	color: #31484F;
+}
+
+/************************* FOOTER ******************************/
+
+/* Footer text */
+footer {
+	font-family: Verdana;
+	color: #EEEEEE;
+	font-size: 11px;
+}
+
+/* Footer text hyperlink */
+.footerlink {
+	color: #FFFFE8;
+}
+
+/* Footer text hyperlink on mouse hover (used inside the index.swf) */
+footerlink-hover {
+	color: #FFCC99;
+}
+
+/************************* TEAM ********************************/
+
+/* Person name */
+persname {
+	font-family: Arial;
+	color: #31484F;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Person position */
+persposition {
+	font-family: Verdana;
+	color: #333333;
+	font-size: 12px;
+	font-style: italic;
+}
+
+/************************* SERVICES ****************************/
+
+/* Service item title */
+servicetitle {
+	font-family: Arial;
+	color: #31484F;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Service item price */
+price {
+	font-family: Verdana;
+	color: #666666;
+	font-size: 12px;
+	/*font-weight: bold;*/
+}
+
+/* Link block for pricing tables */
+pricinglink {
+	font-family: Verdana;
+	color: #4C6066;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/************************* NEWS ********************************/
+
+/* News item title (in preview) */
+newspreview-title {
+	font-family: Arial;
+	color: #31484F;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* News item date (in preview) */
+newspreview-date {
+	font-family: Verdana;
+	color: #C22121;
+	font-size: 11px;
+}
+
+/* News item title (in article) */
+newsarticle-title {
+	font-family: Arial;
+	color: #444444;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* News item date (in article) */
+newsarticle-date {
+	font-family: Verdana;
+	color: #31484F;
+	font-size: 11px;
+}
+
+/* List text (in preview) */
+.previewlist {
+	margin-left: -16px;
+}
+
+/************************* PORTFOLIO ****************************/
+
+/* Image caption of a portfolio/gallery item preview */
+previewcaption {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+
+/* Image caption of a portfolio item preview on mouse hover (used inside the porfolio.swf) */
+previewcaption-hover {
+	color: #FFCC99;
+}
+
+/* Portfolio item (project) title */
+project-title {
+	font-family: Arial;
+	color: #444444;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Portfolio project counter (used inside the porfolio.swf) */
+.projectcounter {
+	font-family: Verdana;
+	color: #333333;
+	font-size: 14px;
+}
+
+/* The first number of the project counter (used inside the porfolio.swf) */
+.projectcounter-firstnumber {
+	font-family: Verdana;
+	color: #C22121;
+	font-size: 14px;
+}
+
+/************************* GALLERY *****************************/
+
+/* Gallery item title */
+galleryitem-title {
+	font-family: Verdana;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* Gallery item counter (used inside the gallery.swf) */
+.galleryitem-counter {
+	font-family: Verdana;
+	color: #333333;
+	font-size: 18px;
+}
+
+/************************* VIDEO PLAYER ************************/
+
+/* Video player timer */
+videotimer {
+	font-family: Tahoma;
+	color: #333333;
+	font-size: 11px;
+}
+
+/************************* CONTACT *****************************/
+
+/* Contact information title */
+infotitle {
+	font-family: Arial;
+	color: #31484F;
+	font-size: 14px;
+	font-weight: bold;
+	leading: 16px;
+}
+
+/* The label for "Send" button (used inside the contact.swf) */
+sendbutton {
+	font-family: Arial;
+	font-size: 14px;
+}

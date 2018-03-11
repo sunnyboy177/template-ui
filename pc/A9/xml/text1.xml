@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE TEXT MODULE.  TO CREATE MULIPLE GALLERIES, DUPLICATE THIS XML FILE AND GIVE IT A UNIQUE FILE NAME -->
+
+<data>
+		
+	<settings>
+		
+		<!-- Choose to use a CSS file, true/false -->
+		<useCSS>true</useCSS>
+		
+		<!-- The url of your CSS file if used -->
+		<cssURL>css/a_few_words.css</cssURL>
+		
+		<!-- The y position for your text box -->
+		<textBoxY>150</textBoxY>
+		
+		<!-- Choose to always stretch your text based on the height of the monitor, true/false -->
+		<fullHeight>true</fullHeight>
+		
+		<!-- The total width of the text box -->
+		<textBoxWidth>650</textBoxWidth>
+		
+		<!-- This will default to the actual text height if it is lower than the number below-->
+		<textBoxHeight>300</textBoxHeight>
+		
+		<!-- The distance in pixels between the bottom of the text field and the menu -->
+		<menuBuffer>40</menuBuffer>
+		
+		<!-- The total height of the top background graphic -->
+		<topBackgroundHeight>0</topBackgroundHeight>
+		
+		<!-- The background color of the top background graphic --> 
+		<topBgColor>#847A6F</topBgColor>
+		
+		<!-- The transparency level of the top background color, 0-100 (set to zero to hide graphic) -->
+		<topBgTransparency>100</topBgTransparency>
+		
+		<!-- The background color of the text box -->
+		<textBgColor>#6A6159</textBgColor>
+		
+		<!-- The transparence level for the text box, 0-100 (set to zero to hide graphic)-->
+		<textBgTransparency>100</textBgTransparency>
+		
+		<!-- The color of the scroll arrows -->
+		<scrollColor>#FFFFFF</scrollColor>
+		
+		<!-- The color of the scroll arrows on mouse over -->
+		<scrollOverColor>#999999</scrollOverColor>
+		
+		<!-- The easing time to be applied to a single scroll click, in seconds -->
+		<scrollEasingTime>1</scrollEasingTime>
+		
+		<!-- The amount of pixels to scroll for a single scroll click -->
+		<scrollDistance>30</scrollDistance>
+	
+	</settings>
+	
+	<!-- The text box content, HTML/CSS compatible -->
+	<content><![CDATA[<!-- BEGIN --><title_text>公司简介</title_text><normal_text><br/>中文支持Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam consequat odio eu aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis posuere laoreet. Maecenas ultrices bibendum mollis. Duis quis libero a mi rhoncus suscipit at eu urna. Quisque ut erat erat. Integer tincidunt luctus quam, sed volutpat lacus porta in. Mauris auctor enim ultrices mauris vulputate non sollicitudin lectus tristique. Fusce eu lacus urna, a tempor est. Nunc nisi mi, mollis sit amet dignissim at, tincidunt eget arcu. In risus neque, accumsan a varius eu, pretium quis enim. In quis feugiat libero. Etiam nunc velit, dapibus eget elementum at, pellentesque viverra risus. Nam nisl augue, fringilla ut dictum ac, cursus ut nulla. Vestibulum quis lobortis nibh. Etiam rhoncus mi non justo cursus eu lacinia massa congue. Etiam vel nisi metus. Aliquam interdum quam et elit pharetra luctus. Nunc cursus hendrerit mauris sit amet commodo. Nam laoreet consequat magna non feugiat. Nunc pretium eros eget tortor bibendum porta. Etiam egestas felis a risus lobortis facilisis. Nullam dolor nisi, iaculis ut accumsan ut, adipiscing ac enim. Donec in nulla a ipsum bibendum volutpat at at lorem. Pellentesque ultricies mattis dolor, ac pulvinar erat egestas in. Aliquam erat volutpat. Nullam consequat fringilla velit non condimentum. Fusce eleifend eros nulla. Nulla felis felis, ultrices ac vehicula nec, molestie vitae lorem.</normal_text><!-- END -->]]></content>
+
+</data>

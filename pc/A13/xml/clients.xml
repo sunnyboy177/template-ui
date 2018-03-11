@@ -1,0 +1,134 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<settings
+	
+		imageBgColor=""
+		imageBgAlpha=""
+		imageBorderColor=""
+		imageBorderThickness=""
+		imageShadowColor=""
+		imageShadowAlpha=""
+		imagePreloaderColor="333333"
+		imagePreloaderAlpha="0.5"
+		imageCaptionBgColor=""
+		imageCaptionBgAlpha=""
+		imageCaptionBlurredBg="false"
+		imageCaptionBgBlurAmount=""
+		imageCaptionPadding=""
+		imageOverBrightness="0.6"
+		
+		listItemMarkerURL="images/icons/list-item-marker-type1.png"
+		listItemMarkerTopPadding="8"
+		listItemLeftPadding="12"
+		listItemBottomPadding="3"
+		
+		scrollBarTrackWidth="2"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="4"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor=""
+		
+		useSlideshow="false"
+		slideshowLeftMargin=""
+		slideshowTopMargin=""
+		slideshowHeight=""
+		slideshowXML=""
+
+	/>
+	
+	<content topMargin="0">
+	
+		<cols>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-1.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-2.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-3.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-4.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+		</cols>
+		
+		<cols>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-5.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-6.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-1.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-2.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+		</cols>
+		
+		<cols>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-3.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-4.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-5.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+			<col>
+				<imageblock topMargin="0" leftMargin="20">
+					<image src="images/clients/logo-6.png" width="200" height="120" clickLink="http://www.flashdos.com/" clickTarget="_blank"/>
+					<caption><![CDATA[]]></caption>
+				</imageblock>
+			</col>
+		</cols>
+		
+		<textblock topMargin="30">
+			<text><![CDATA[<p>This is a <b>standard page</b> created with the Standard Page module. The Estetica template uses the original internal system for arranging HTML text and images on pages. This universal system of content blocks can be completely used in all standard pages (the Standard Page module) and partly in some other modules.</p>]]></text>
+		</textblock>
+		
+	</content>
+	
+</data>

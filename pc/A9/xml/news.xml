@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+
+	<settings>
+	
+		<!-- Choose to use a CSS file -->
+		<useCSS>true</useCSS>
+		
+		<!-- The URL of your CSS file if used -->
+		<cssURL>css/news.css</cssURL>
+		
+		<!-- The number of news items to show without having to scroll -->
+		<listCount>6</listCount>
+		
+		<!-- The color of the date text -->
+		<dateTextColor>#FFFFFF</dateTextColor>
+		
+		<!-- The color of the date text background -->
+		<dateBgColor>#151513</dateBgColor>
+		
+		<!-- The color of the title text -->
+		<titleTextColor>#000000</titleTextColor>
+		
+		<!-- The color of the title text background -->
+		<titleBgColor>#FFFFFF</titleBgColor>
+		
+		<!-- The color of the main arrow -->
+		<arrowColor>#151513</arrowColor>
+		
+		<!-- The color of the main arrow background -->
+		<arrowBgColor>#ffffff</arrowBgColor>
+		
+		<!-- The color of the main arrow on mouse over -->
+		<arrowColorOver>#ffffff</arrowColorOver>
+		
+		<!-- The color of the main arrow background on mouse over -->
+		<arrowBgColorOver>#4B4B45</arrowBgColorOver>
+		
+		<!-- The total width of the news text when expanded -->
+		<expandedNewsWidth>400</expandedNewsWidth>
+		
+		<!-- The maximum height to expand to, options are a fixed number or the word "full" which will be based on the monitor height -->
+		<expandedNewsMaxHeight>full</expandedNewsMaxHeight>
+		
+		<!-- The news scroller arrow color -->
+		<scrollNewsArrowColor>#ffffff</scrollNewsArrowColor>
+		
+		<!-- The news scroller arrow color on mouse over -->
+		<scrollNewsArrowColorOver>#EEBB88</scrollNewsArrowColorOver>
+		
+		<!-- The color of the close button -->
+		<closeButtonColor>#ffffff</closeButtonColor>
+		
+		<!-- The color of the close button on mouse over -->
+		<closeButtonColorOver>#EEBB88</closeButtonColorOver>
+		
+		<!-- The color of the media arrows and numbered text -->
+		<mediaControlsColor>#ffffff</mediaControlsColor>
+		
+		<!-- The color of the media arrow on mouse over -->
+		<mediaArrowsColorOver>#EEBB88</mediaArrowsColorOver>
+		
+		<!-- The easing time to be applied to a single scroll click, in seconds -->
+		<scrollEasingTime>1</scrollEasingTime>
+		
+		<!-- The amount of pixels to scroll for a single scroll click -->
+		<scrollDistance>30</scrollDistance>
+		
+		<!-- The preloader color for the light-box -->
+		<preloaderColor>#ffffff</preloaderColor>
+		
+		<!-- The initial video volume -->
+		<videoVolume>100</videoVolume>
+		
+		<!-- The video buffering time in seconds -->
+		<videoBuffering>3</videoBuffering>
+		
+		<!-- choose to autoStart video, true/false -->
+		<autoStartVideo>false</autoStartVideo>
+	
+	</settings>
+	
+	<news>
+		
+	 
+		<item>
+			
+			<date>2013年9月5日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+
+		<item>
+			
+			<date>2013年9月3日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+		
+		<item>
+			
+			<date>2013年9月1日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+		<item>
+			
+			<date>2013年8月27日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+
+		<item>
+			
+			<date>2013年8月16日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+
+		<item>
+			
+			<date>2013年7月29日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+
+
+		<item>
+			
+			<date>2013年6月24日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+		<item>
+			
+			<date>2013年6月15日</date>	
+			<title>新闻标题</title>				 
+			<insideItem>
+				
+				
+				<description><![CDATA[<normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sapien, venenatis vitaeauctor non, viverra et mi. Aenean nec lorem quis mauris lacinia dictum non et massa. Praesent suscipit venenatis nibh eget porta. In hac habitasse platea dictumst. Aliquam eu pharetra nunc. Duis dignissim elit non urna tempus in tempus elit placerat. Nunc et mauris dignissim nulla sagittis ullamcorper quis a ipsum. Etiam sit amet velit mauris, id sodales diam. Suspendisse at magna massa. Nam eget magna sed turpis iaculis semper. Donec volutpat ullamcorper laoreet. Vivamus interdum, enim ac vulputate adipiscing, orci eros luctus eros, nec mattis magna magna in arcu. Proin mollis placerat sodales. Suspendisse a sapien orci. Suspendisse eu quam nisl. Morbi pretium tempus iaculis. Ut quis elit a diam molestie euismod eu nec lorem. Donec iaculis orci eu nunc mollis cursus. Donec non magna nunc. Proin sed dolor ante, sodales dictum sapien. Ut aliquet turpis in diam feugiat pharetra. Nam nibh ante, feugiat id facilisis ac, euismod eu nunc. Suspendisse ultricies lacus leo, eu ullamcorper elit. Ut sodales augue nec diam suscipit id molestie erat convallis. Nullam urna magna, sagittis ut aliquam varius, fermentum et leo. Nulla adipiscing magna et ligula sollicitudin ut elementum sapien iaculis. Nam vehicula felis ac nisl luctus at suscipit ipsum tristique. Aenean tristique sem at erat ullamcorper sit amet sodales odio pellentesque. Vivamus iaculis tristique sem at tempus. Sed hendrerit tempor elit, a egestas nisl malesuada ac. Nullam eros nisl, malesuada iaculis convallis vel, viverra ac odio. Nunc ultrices consequat tortor, ac rhoncus odio rhoncus et. Nulla facilisi. Nullam ut enim ac lacus auctor ullamcorper. Fusce in nibh nisi.</normal_text>]]></description>
+				
+				
+			
+			</insideItem>
+		</item>
+
+	</news>
+	
+</data>

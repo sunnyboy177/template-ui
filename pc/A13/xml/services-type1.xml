@@ -1,0 +1,149 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services>
+		
+	<settings
+		
+		servicesType="1"
+		controlsTopMargin="0"
+		controlsRightMargin="10"
+		navButtonColor="888888"
+		navButtonSelectedColor="E15151"
+		
+		itemsInRow="3"
+		itemsTopMargin="25"
+		itemsLeftMargin="0"
+		itemWidth="280"
+		itemHeight="140"
+		itemHSpacing="30"
+		itemVSpacing=""
+		
+		imageBgColor="FFFFFF"
+		imageBgAlpha="0.3"
+		imageBorderColor="FFFFFF"
+		imageBorderThickness="1"
+		imageShadowColor="999999"
+		imageShadowAlpha="0.5"
+		imagePreloaderColor="333333"
+		imagePreloaderAlpha="0.5"
+		imageOverBrightness="0.4"
+		imageTopMargin=""
+		imageBottomMargin="15"
+		imageRightMargin=""
+		
+		titleBottomPadding="10"
+		
+		listItemMarkerURL="images/icons/list-item-marker-type3.png"
+		listItemMarkerTopPadding="7"
+		listItemLeftPadding="12"
+		listItemBottomPadding="3"
+		
+		scrollBarTrackWidth="1"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="3"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor="999999"
+	/>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Landscape Architecture</servicetitle>]]></title>
+		<image src="images/services/img1.jpg" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia. Suspendisse lobortis consequat sapien, at accumsan justo condimentum.</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="444444">
+				<item><![CDATA[<p>Donec facilisis posuere vehicula</p>]]></item>
+				<item><![CDATA[<p>Morbi porta, urna at euismod placerat</p>]]></item>
+				<item><![CDATA[<p>Aliquam lectus ligula fringilla</p>]]></item>
+				<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit</p>]]></item>
+			</list>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Interior Design</servicetitle>]]></title>
+		<image src="images/services/img2.jpg" clickLink="#/interior-design-1" clickTarget="_self"/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Suspendisse lobortis consequat sapien, at accumsan justo condimentum a. Nulla facilisi. Aliquam erat volutpat.</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="444444">
+				<item><![CDATA[<p>Aliquam lectus ligula fringilla</p>]]></item>
+				<item><![CDATA[<p>Donec facilisis posuere vehicula</p>]]></item>
+				<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit</p>]]></item>
+			</list>
+			<link topMargin="8" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/interior-design-1" clickTarget="_self">
+				<![CDATA[<link>Learn more</link>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Structural Engineering</servicetitle>]]></title>
+		<image src="images/services/img3.jpg" clickLink="#/structural-engineering-1" clickTarget="_self"/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Integer vel enim mi, sed suscipit neque. Integer at enim cursus massa malesuada tempus. Praesent congue molestie tristique.</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="444444">
+				<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit</p>]]></item>
+				<item><![CDATA[<p>Donec facilisis posuere vehicula</p>]]></item>
+				<item><![CDATA[<p>Morbi porta, urna at euismod placerat</p>]]></item>
+				<item><![CDATA[<p>Aliquam lectus ligula fringilla</p>]]></item>
+			</list>
+			<link topMargin="8" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/structural-engineering-1" clickTarget="_self">
+				<![CDATA[<link>Learn more</link>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Electrical Engineering</servicetitle>]]></title>
+		<image src="images/services/img4.jpg" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Nulla ornare neque sit amet magna volutpat cursus sit amet sollicitudin massa. Sed a sapien ac odio fringilla accumsan.</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="444444">
+				<item><![CDATA[<p>Donec facilisis posuere vehicula</p>]]></item>
+				<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit</p>]]></item>
+				<item><![CDATA[<p>Morbi porta, urna at euismod placerat</p>]]></item>
+				<item><![CDATA[<p>Aliquam lectus ligula fringilla</p>]]></item>
+			</list>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Master Planning</servicetitle>]]></title>
+		<image src="images/services/img5.jpg" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Sed a sapien ac odio fringilla accumsan. Sed blandit dapibus fermentum. Sed nunc arcu, malesuada non hendrerit id, viverra nec tortor. Sed non venenatis erat.</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="E15151">
+				<item><![CDATA[<p>Etiam sollicitudin lectus vitae velit</p>]]></item>
+				<item><![CDATA[<p>Donec facilisis posuere vehicula</p>]]></item>
+				<item><![CDATA[<p>Aliquam lectus ligula fringilla</p>]]></item>
+			</list>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>Construction Administration</servicetitle>]]></title>
+		<image src="images/services/img6.jpg" clickLink="#/construction-administration-1" clickTarget="_self"/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>Etiam sollicitudin lectus vitae velit vulputate quis consequat nunc placerat. In ac risus quam, in congue purus. Integer vel enim mi, sed suscipit neque. Integer at enim cursus massa malesuada tempus. Praesent congue molestie tristique.</p>]]></text>
+			</textblock>
+			<link topMargin="8" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/construction-administration-1" clickTarget="_self">
+				<![CDATA[<link>Learn more</link>]]>
+			</link>
+		</content>
+	</service>
+	
+</services>

@@ -1,0 +1,33 @@
+normal_text{
+	font-size:12px;
+	color:#FFFFFF;
+}
+
+
+thumb_title{
+	color:#000000;
+}
+
+
+thumb_copy{
+	color:#ffffff;
+}
+
+large_title{
+	color:#ffffff;
+}
+
+
+
+
+
+
+
+a {
+	color: #EEBB88;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+

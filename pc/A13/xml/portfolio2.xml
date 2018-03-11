@@ -1,0 +1,386 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portfolio>
+		
+	<settings
+		
+		showCategoryMenu="false"
+		categoryMenuAlign=""
+		categoryMenuYPosition=""
+		categorySpacing=""
+		categoryFont=""
+		categoryFontSize=""
+		categoryFontWeight=""
+		categoryFontColor=""
+		categoryOverFontColor=""
+		categorySelectedFontColor=""
+		categoryMenuTrimWidth=""
+		categoryMenuTrimHeight=""
+		categoryMenuTrimTopPadding=""
+		categoryMenuTrimColor=""
+		categoryMenuTrimAlpha=""
+		
+		previewsControlsYPosition="0"
+		previewsControlsRightMargin="10"
+		previewsNavButtonColor="888888"
+		previewsNavButtonSelectedColor="E15151"
+		
+		previewsInRow="3"
+		previewsInCol="2"
+		previewsTopMargin="15"
+		previewWidth="295"
+		previewHeight="180"
+		previewSpacing="2"
+		overlappreviewsBackgrounds="true"
+		
+		previewBgColor="FFFFFF"
+		previewBgAlpha="0.6"
+		previewBorderColor=""
+		previewBorderThickness=""
+		previewShadowColor=""
+		previewShadowAlpha=""
+		previewPreloaderColor="333333"
+		previewPreloaderAlpha="0.5"
+		previewCaptionBgColor="000000"
+		previewCaptionBgAlpha="0.1"
+		previewCaptionOverBgColor="000000"
+		previewCaptionOverBgAlpha="0.2"
+		previewCaptionBlurredBg="true"
+		previewCaptionBgBlurAmount="32"
+		previewCaptionPadding="5"
+		previewOverBrightness="0.4"
+		
+		projectAreaYPosition="10"
+		projectHeaderHeight="30"
+		projectAlign="left"
+		projectListButtonURL="images/icons/list-icon.png"
+		projectListButtonLabel="back to list"
+		projectLeftNavButtonURL="images/icons/left-arrow-type1-small.png"
+		projectRightNavButtonURL="images/icons/right-arrow-type1-small.png"
+		projectNavButtonPadding="5"
+		projectButtonColor="888888"
+		projectButtonOverColor="444444"
+		projectControlsSeparatorURL="images/icons/dotted-line.png"
+		projectControlsSeparatorColor="999999"
+		showProjectDescription="true"
+		
+		bigImageWidth="560"
+		bigImageHeight="315"
+		bigImageBgColor="FFFFFF"
+		bigImageBgAlpha="0.3"
+		bigImageBorderColor="F3F3F3"
+		bigImageBorderThickness="2"
+		bigImagePreloaderColor="333333"
+		bigImagePreloaderAlpha="0.5"
+		bigImageRightMargin="15"
+		
+		thumbnailsVisible="5"
+		thumbnailsAlign="left"
+		thumbnailsTopMargin="10"
+		thumbnailWidth="90"
+		thumbnailHeight="60"
+		thumbnailSpacing="10"
+		thumbnailBgColor="FFFFFF"
+		thumbnailBgAlpha="0.3"
+		thumbnailBorderColor="FFFFFF"
+		thumbnailSelectedBorderColor="E15151"
+		thumbnailBorderThickness="1"
+		thumbnailShadowColor="999999"
+		thumbnailShadowAlpha="0.5"
+		thumbnailPreloaderColor="333333"
+		thumbnailPreloaderAlpha="0.5"
+		thumbnailOverBrightness="0.4"
+		thumbnailVideoIconSize="24"
+		thumbnailVideoIconColor="FFFFFF"
+		thumbnailVideoIconAlpha="0.5"
+		thumbnailVideoIconOverAlpha="1"
+		thumbnailsLeftNavButtonURL="images/icons/left-arrow-type1.png"
+		thumbnailsRightNavButtonURL="images/icons/right-arrow-type1.png"
+		thumbnailsNavButtonColor="888888"
+		thumbnailsNavButtonOverColor="444444"
+		thumbnailsNavButtonPadding="10"
+		
+		videoPlayerShadowColor="999999"
+		videoPlayerShadowAlpha="0.5"
+		videoBufferTime="3"
+		videoSoundVolume="0.85"
+		showVideoControls="true"
+		videoControlsAutoHide="true"
+		videoControlsAutoHideDelay="3"
+		videoControlsBgColor="FFFFFF"
+		videoControlsSeparatorColor="E5E5E5"
+		videoControlsButtonColor="777777"
+		videoControlsButtonOverColor="444444"
+		soundVolumeBarFillColor="FFCC99"
+		soundVolumeBarBgColor="EEEEEE"
+		timelineBgColor="EEEEEE"
+		timelineSeekBarColor="CCCCCC"
+		timelinePlayBarColor="606060"
+		screenPlayButtonSize="62"
+		screenPlayButtonIconColor="FFFFFF"
+		screenPlayButtonBgColor="000000"
+		screenPlayButtonAlpha="0.5"
+		
+		listItemMarkerURL="images/icons/list-item-marker-type1.png"
+		listItemMarkerTopPadding="8"
+		listItemLeftPadding="12"
+		listItemBottomPadding="0"
+		scrollBarTrackWidth="1"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="3"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor=""
+	/>
+	
+	<category title="">
+	
+		<item>
+			<title><![CDATA[<project-title>AQUA RESORT PROJECT</project-title>]]></title>
+			<preview src="images/portfolio/aqua/preview.jpg"><![CDATA[<previewcaption><center>AQUA RESORT PROJECT</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  Resort Architecture Group</p><space></space><p><b>Year:</b>  2009</p><space></space><p><b>Location:</b>  Beachtown, CA</p><space></space><p><b>Value:</b>  $450.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Proin at leo a ligula egestas pellentesque. Maecenas porta pretium quam, et rutrum nunc lobortis id. Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. In nec quam sit amet erat iaculis cursus.</p><space></space><p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis vitae fermentum sed, convallis non ante. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/aqua/img1.jpg" tn="images/portfolio/aqua/img1-tn.jpg"/>
+				<image src="images/portfolio/aqua/img2.jpg" tn="images/portfolio/aqua/img2-tn.jpg"/>
+			</media>
+		</item>
+			
+		<item>
+			<title><![CDATA[<project-title>LANDSCAPE DESIGN FOR A CITY PARK</project-title>]]></title>
+			<preview src="images/portfolio/city_park/preview.jpg"><![CDATA[<previewcaption><center>LANDSCAPE DESIGN FOR A CITY PARK</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  Recovery Programme Organization</p><space></space><p><b>Year:</b>  2009</p><space></space><p><b>Location:</b>  Gdansk, Poland</p><space></space><p><b>Value:</b>  $85.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. In nec quam sit amet erat iaculis cursus. Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Quisque enim, volutpat vitae fermentum sed, convallis ante. Quisque tincidunt lacus turpis. Nulla congue suscipit turpis, vitae hendrerit augue facilisis quis.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/city_park/img1.jpg" tn="images/portfolio/city_park/img1-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>KINGDOM HALL LANDSCAPE DESIGN</project-title>]]></title>
+			<preview src="images/portfolio/kingdom_hall/preview.jpg"><![CDATA[<previewcaption><center>KINGDOM HALL LANDSCAPE DESIGN</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  Landscape Construction Ltd</p><space></space><p><b>Year:</b>  2007</p><space></space><p><b>Location:</b>  Burnaby, BC, Canada</p><space></space><p><b>Value:</b>  $300.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. Aliquam gravida tortor eu nulla congue posuere. Praesent tristique egestas tincidunt. Nulla convallis, nisi ac fringilla pharetra, est nulla tincidunt lacus, in auctor eros justo eu tortor.</p><space></space><p>Phasellus venenatis venenatis enim id ultricies. Nullam quis elit leo, quis fringilla metus. In nec quam sit amet erat iaculis cursus euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis diam nunc.</p><space></space><p>Quisque nisl enim, volutpat vitae fermentum sed, convallis tincidunt lacus turpis. Nulla congue suscipit turpis, vitae hendrerit augue facilisis quis.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/kingdom_hall/img1.jpg" tn="images/portfolio/kingdom_hall/img1-tn.jpg"/>
+				<image src="images/portfolio/kingdom_hall/img2.jpg" tn="images/portfolio/kingdom_hall/img2-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>PLAYGROUND IN A LANDSCAPE PARK</project-title>]]></title>
+			<preview src="images/portfolio/landscape_park/preview.jpg"><![CDATA[<previewcaption><center>PLAYGROUND IN A LANDSCAPE PARK</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  Landscape Development Corporation</p><space></space><p><b>Year:</b>  2007</p><space></space><p><b>Location:</b>  Munich, Germany</p><space></space><p><b>Value:</b>  $500.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor. Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Mauris in pulvinar nunc. Praesent eu libero risus. Donec a volutpat purus.</p><space></space><p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam bibendum mauris molestie nisi dignissim mattis ac massa magna, vitae volutpat lacus.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/landscape_park/img1.jpg" tn="images/portfolio/landscape_park/img1-tn.jpg"/>
+				<image src="images/portfolio/landscape_park/img2.jpg" tn="images/portfolio/landscape_park/img2-tn.jpg"/>
+				<image src="images/portfolio/landscape_park/img3.jpg" tn="images/portfolio/landscape_park/img3-tn.jpg"/>
+				<image src="images/portfolio/landscape_park/img4.jpg" tn="images/portfolio/landscape_park/img4-tn.jpg"/>
+				<image src="images/portfolio/landscape_park/img5.jpg" tn="images/portfolio/landscape_park/img5-tn.jpg"/>
+				<image src="images/portfolio/landscape_park/img6.jpg" tn="images/portfolio/landscape_park/img6-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>BUILDING A STONE WALKWAY IN A CITY PARK</project-title>]]></title>
+			<preview src="images/portfolio/walkway/preview.jpg"><![CDATA[<previewcaption><center>BUILDING A STONE WALKWAY IN A PARK</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  John Doe Communities</p><space></space><p><b>Year:</b>  2010</p><space></space><p><b>Location:</b>  Elk Grove, CA</p><space></space><p><b>Value:</b>  $95.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Nullam lorem lorem, bibendum eu facilisis eu, feugiat convallis lectus. Suspendisse euismod scelerisque nisi sed interdum. Duis orci ligula, malesuada a gravida eu, lobortis at est. Duis suscipit varius lorem vitae volutpat. Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor. Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Mauris in pulvinar nunc. Praesent eu libero risus. Donec a volutpat purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos:</p>]]></text>
+				</textblock>
+				<list width="" topMargin="6" leftMargin="10" markerColor="444444">
+					<item><![CDATA[<p>donec facilisis posuere vehicula</p>]]></item>
+					<item><![CDATA[<p>morbi porta, urna at euismod metus ut massa</p>]]></item>
+					<item><![CDATA[<p>aliquam lectus ligula fringilla venenatis venenatis</p>]]></item>
+					<item><![CDATA[<p>etiam sollicitudin lectus vitae velit.</p>]]></item>
+				</list>
+			</description>
+			<media>
+				<image src="images/portfolio/walkway/img1.jpg" tn=""/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>MIXED MEDIA PROJECT</project-title>]]></title>
+			<preview src="images/portfolio/mixed_media/preview.jpg"><![CDATA[<previewcaption><center>MIXED MEDIA PROJECT</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Client:</b>  Mixed Media Company</p><space></space><p><b>Year:</b>  2012</p><space></space><p><b>Location:</b>  Thomasville, Alabama</p><space></space><p><b>Value:</b>  $750.000</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Project details:</b></p><space></space><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas tincidunt diam sit amet lacus adipiscing eu dignissim mauris molestie. Nam in orci turpis, congue volutpat augue. Nulla facilisi. Suspendisse lobortis consequat sapien, at accumsan justo condimentum a. Nulla facilisi. Aliquam erat volutpat. Proin elementum augue nec lectus molestie congue. Duis sed quam massa, nec molestie sapien.</p><space></space><p>Vivamus sit amet lacus posuere lacus ullamcorper tempus. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/mixed_media/img1.jpg" tn="images/portfolio/mixed_media/img1-tn.jpg"/>
+				<video youTubeMode="false" src="videos/top_view.mp4" ratio="16:9" previewImage="images/portfolio/mixed_media/video1-preview.jpg" tn="images/portfolio/mixed_media/video1-tn.jpg" playbackQuality="" autoPlay="true"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>ECO LIGHTING DESIGN</project-title>]]></title>
+			<preview src="images/portfolio/eco/preview.jpg"><![CDATA[<previewcaption><center>ECO LIGHTING DESIGN</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p>San Diego, CA<br/>2011<br/></p><p><b>Designer:</b>  Jane Smith & Kate Brown</p><p><b>Architect:</b>  John Carter</p><space></space><p><b>Client:</b>  Eco Lighting Company<br/></p><p>Proin at leo a ligula egestas pellentesque. Maecenas porta pretium quam, et rutrum nunc lobortis id. Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. In nec quam sit amet erat iaculis cursus.</p><space></space><p>Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis vitae fermentum sed, convallis non ante. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/eco/img1.jpg" tn="images/portfolio/eco/img1-tn.jpg"/>
+				<image src="images/portfolio/eco/img2.jpg" tn="images/portfolio/eco/img2-tn.jpg"/>
+				<image src="images/portfolio/eco/img3.jpg" tn="images/portfolio/eco/img3-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>THE MAXWELL SCHOOL OF ARTS</project-title>]]></title>
+			<preview src="images/portfolio/maxwell/preview.jpg"><![CDATA[<previewcaption><center>THE MAXWELL SCHOOL OF ARTS</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p>Paradise Valley, Arizona<br/>2010<br/></p><p><b>Designer:</b>  Jane Smith & John Lee</p><p><b>Architect:</b>  Marcus Porter</p><space></space><p><b>Client:</b>  The Maxwell Art Group<br/></p><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas tincidunt diam sit amet lacus adipiscing eu dignissim mauris molestie. Nam in orci turpis, congue volutpat augue. Nulla facilisi. Suspendisse lobortis consequat sapien, at accumsan justo condimentum a. Nulla facilisi. Aliquam erat volutpat. Proin elementum augue nec lectus molestie congue. Duis sed quam massa, nec molestie sapien.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/maxwell/img1.jpg" tn="images/portfolio/maxwell/img1-tn.jpg"/>
+				<image src="images/portfolio/maxwell/img2.jpg" tn="images/portfolio/maxwell/img2-tn.jpg"/>
+				<image src="images/portfolio/maxwell/img3.jpg" tn="images/portfolio/maxwell/img3-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>YOUTUBE VIDEO PROJECT</project-title>]]></title>
+			<preview src="images/portfolio/youtube/preview.jpg"><![CDATA[<previewcaption><center>YOUTUBE VIDEO PROJECT</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p>Columbus, Georgia<br/>2011<br/></p><p><b>Designer:</b>  John Lee</p><p><b>Architect:</b>  John Carter</p><space></space><p><b>Client:</b>  Allegro Media Group<br/></p><p>Justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. Aliquam gravida tortor eu nulla congue posuere. Praesent tristique egestas tincidunt. Nulla convallis, nisi ac fringilla pharetra, est nulla tincidunt lacus, in auctor eros justo eu tortor.</p><space></space><p>Phasellus venenatis venenatis enim id ultricies. Nullam quis elit leo, quis fringilla metus. In nec quam sit amet erat iaculis cursus euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis diam nunc.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<video youTubeMode="true" src="6gvrI6iAMKM" ratio="16:9" previewImage="http://i3.ytimg.com/vi/6gvrI6iAMKM/0.jpg" tn="images/portfolio/youtube/video1-tn.jpg" playbackQuality="hd720" autoPlay="false"/>
+				<video youTubeMode="true" src="KEqzVAERF5o" ratio="16:9" previewImage="http://i3.ytimg.com/vi/KEqzVAERF5o/0.jpg" tn="images/portfolio/youtube/video2-tn.jpg" playbackQuality="hd720" autoPlay="false"/>
+				<video youTubeMode="true" src="mNThBQahssg" ratio="16:9" previewImage="http://i3.ytimg.com/vi/mNThBQahssg/0.jpg" tn="images/portfolio/youtube/video3-tn.jpg" playbackQuality="default" autoPlay="false"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>ASTERA ART STUDIO</project-title>]]></title>
+			<preview src="images/portfolio/astera/preview.jpg"><![CDATA[<previewcaption><center>ASTERA ART STUDIO</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p>Gulf Shores, Alabama<br/>2010<br/></p><p><b>Designer:</b>  Jane Smith & John Lee</p><p><b>Architect:</b>  John Carter</p><space></space><p><b>Client:</b>  Asrera Art Design Corporation<br/></p><p>Nullam lorem lorem, bibendum eu facilisis eu, feugiat convallis lectus. Suspendisse euismod scelerisque nisi sed interdum. Duis orci ligula, malesuada a gravida eu, lobortis at est. Duis suscipit varius lorem vitae volutpat. Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor. Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Mauris in pulvinar nunc. Praesent eu libero risus. Donec a volutpat purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos:</p>]]></text>
+				</textblock>
+				<list width="" topMargin="6" leftMargin="10" markerColor="444444">
+					<item><![CDATA[<p>donec facilisis posuere vehicula</p>]]></item>
+					<item><![CDATA[<p>aliquam lectus ligula fringilla venenatis venenatis</p>]]></item>
+					<item><![CDATA[<p>etiam sollicitudin lectus vitae velit.</p>]]></item>
+				</list>
+			</description>
+			<media>
+				<image src="images/portfolio/astera/img1.jpg" tn="images/portfolio/astera/img1-tn.jpg"/>
+				<image src="images/portfolio/astera/img2.jpg" tn="images/portfolio/astera/img2-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>NEW RUGBY ASSOCIATION FOOTBALL CLUB</project-title>]]></title>
+			<preview src="images/portfolio/football_club/preview.jpg"><![CDATA[<previewcaption><center>NEW RUGBY ASSOCIATION FOOTBALL CLUB</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Location:</b><br/>Scarborough, Great Britain</p><space></space><p><b>Client:</b><br/>Livingstone House PLC.</p><space></space><p><b>Consulting Engineer:</b><br/>Alan Midstone & Partners</p><space></space><p><b>Architect:</b><br/>JMT Architects</p><space></space><p><b>Project Value:</b><br/>£2.1 million</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Description:</b></p><space></space><p>Lacinia justo, ac convallis turpis rhoncus ut. Maecenas sodales vehicula est eu laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi lectus orci, elementum quis accumsan sodales, lobortis a mi. Nunc euismod nulla nec mauris pellentesque id porttitor felis placerat. Nunc pellentesque mi placerat nisl posuere laoreet tincidunt metus ullamcorper. Curabitur vitae dolor justo, sed aliquet ligula. Vivamus sapien nibh, aliquam vel condimentum at, convallis ac nulla. Vivamus tellus mauris, pulvinar a tincidunt vel, iaculis a eros.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/football_club/img1.jpg" tn="images/portfolio/football_club/img1-tn.jpg"/>
+				<image src="images/portfolio/football_club/img2.jpg" tn="images/portfolio/football_club/img2-tn.jpg"/>
+				<image src="images/portfolio/football_club/img3.jpg" tn="images/portfolio/football_club/img3-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>CITY SOUTH RETAIL PARK</project-title>]]></title>
+			<preview src="images/portfolio/retail_park/preview.jpg"><![CDATA[<previewcaption><center>CITY SOUTH RETAIL PARK</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Location:</b><br/>Leeds, Great Britain</p><space></space><p><b>Client:</b><br/>ERT Pension Fund</p><space></space><p><b>Consulting Engineer:</b><br/>Alan Midstone & Partners</p><space></space><p><b>Architect:</b><br/>JMT Architects</p><space></space><p><b>Project Value:</b><br/>£1.8 million</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Description:</b></p><space></space><p>Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor. Aliquam lectus ligula, fringilla quis ornare nec, sodales mollis nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam bibendum mauris molestie nisi dignissim mattis. Vestibulum ac massa magna, vitae volutpat lacus.</p><space></space><p>Vivamus sit amet lacus posuere lacus ullamcorper tempus. Aenean sit amet lorem vel eros viverra convallis at eu metus.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/retail_park/img1.jpg" tn="images/portfolio/retail_park/img1-tn.jpg"/>
+				<image src="images/portfolio/retail_park/img2.jpg" tn="images/portfolio/retail_park/img2-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>MIXED CONTENT PROJECT</project-title>]]></title>
+			<preview src="images/portfolio/mixed_content/preview.jpg"><![CDATA[<previewcaption><center>MIXED CONTENT PROJECT</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Location:</b><br/>Oklahoma City, Oklahoma</p><space></space><p><b>Client:</b><br/>Oklahoma Business Corporation</p><space></space><p><b>Consulting Engineer:</b><br/>Genry Harrison & Brothers</p><space></space><p><b>Architect:</b><br/>Urban Engineering Group</p><space></space><p><b>Project Value:</b><br/>$4.5 million</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Description:</b></p><space></space><p>Proin at leo a ligula egestas pellentesque. Maecenas porta pretium quam, et rutrum nunc lobortis id. Aenean cursus, justo ut tristique tincidunt, sapien turpis egestas nisi, non ultricies lorem risus nec neque. In nec quam sit amet erat iaculis cursus. Morbi porta, urna at euismod placerat, nibh mauris tincidunt erat, quis lobortis leo augue ac erat. Aenean quis diam nunc. Quisque nisl enim, volutpat vitae fermentum sed, convallis non ante. Quisque tincidunt lacus turpis.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<video youTubeMode="true" src="KEqzVAERF5o" ratio="16:9" previewImage="http://i3.ytimg.com/vi/KEqzVAERF5o/0.jpg" tn="images/portfolio/mixed_content/video1-tn.jpg" playbackQuality="hd720" autoPlay="false"/>
+				<image src="images/portfolio/mixed_content/img1.jpg" tn="images/portfolio/mixed_content/img1-tn.jpg"/>
+			</media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<project-title>NANO SCIENCE LABORATORY</project-title>]]></title>
+			<preview src="images/portfolio/laboratory/preview.jpg"><![CDATA[<previewcaption><center>NANO SCIENCE LABORATORY</center></previewcaption>]]></preview>
+			<description>
+				<textblock>
+					<text><![CDATA[<p><b>Location:</b><br/>Science Park – University of York, Great Britain</p><space></space><p><b>Client:</b><br/>University of York</p><space></space><p><b>Consulting Engineer:</b><br/>Alan Midstone & Partners</p><space></space><p><b>Project Value:</b><br/>£0.6 million</p>]]></text>
+				</textblock>
+				<textblock topMargin="30">
+					<text><![CDATA[<p><b>Description:</b></p><space></space><p>Vivamus dapibus semper justo, aliquet venenatis magna mattis sit amet. Suspendisse fringilla pellentesque bibendum. Cras scelerisque nisi et lectus facilisis varius. Mauris sodales interdum fringilla. Curabitur ultricies lacus in elit imperdiet id tincidunt eros fringilla.</p><space></space><p>Nullam lorem lorem, bibendum eu facilisis eu, feugiat convallis lectus. Suspendisse euismod scelerisque nisi sed interdum. Duis orci ligula, malesuada a gravida eu, lobortis at est. Duis suscipit varius lorem vitae volutpat. Maecenas imperdiet cursus feugiat. Vivamus sollicitudin metus ut massa pretium vel gravida arcu cursus. Nunc bibendum nisl vitae augue rutrum porttitor.</p>]]></text>
+				</textblock>
+			</description>
+			<media>
+				<image src="images/portfolio/laboratory/img1.jpg" tn="images/portfolio/laboratory/img1-tn.jpg"/>
+				<image src="images/portfolio/laboratory/img2.jpg" tn="images/portfolio/laboratory/img2-tn.jpg"/>
+			</media>
+		</item>
+	
+	</category>
+	
+</portfolio>

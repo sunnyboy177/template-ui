@@ -1,0 +1,73 @@
+﻿
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE TEXT MODULE.  TO CREATE MULIPLE GALLERIES, DUPLICATE THIS XML FILE AND GIVE IT A UNIQUE FILE NAME -->
+
+<data>
+		
+	<settings>
+		
+		<!-- Choose to use a CSS file, true/false -->
+		<useCSS>true</useCSS>
+		
+		<!-- The url of your CSS file if used -->
+		<cssURL>css/our_services.css</cssURL>
+		
+		<!-- The y position for your text box -->
+		<textBoxY>100</textBoxY>
+		
+		<!-- Choose to always stretch your text based on the height of the monitor, true/false -->
+		<fullHeight>true</fullHeight>
+		
+		<!-- The total width of the text box -->
+		<textBoxWidth>500</textBoxWidth>
+		
+		<!-- This will default to the actual text height if it is lower than the number below-->
+		<textBoxHeight>500</textBoxHeight>
+		
+		<!-- The distance in pixels between the bottom of the text field and the menu -->
+		<menuBuffer>30</menuBuffer>
+		
+		<!-- The total height of the top background graphic -->
+		<topBackgroundHeight>0</topBackgroundHeight>
+		
+		<!-- The background color of the top background graphic --> 
+		<topBgColor>#445658</topBgColor>
+		
+		<!-- The transparency level of the top background color, 0-100 (set to zero to hide graphic) -->
+		<topBgTransparency>100</topBgTransparency>
+		
+		<!-- The background color of the text box -->
+		<textBgColor>#192B37</textBgColor>
+		
+		<!-- The transparence level for the text box, 0-100 (set to zero to hide graphic)-->
+		<textBgTransparency>100</textBgTransparency>
+		
+		<!-- The color of the scroll arrows -->
+		<scrollColor>#FFFFFF</scrollColor>
+		
+		<!-- The color of the scroll arrows on mouse over -->
+		<scrollOverColor>#A39485</scrollOverColor>
+		
+		<!-- The easing time to be applied to a single scroll click, in seconds -->
+		<scrollEasingTime>1</scrollEasingTime>
+		
+		<!-- The amount of pixels to scroll for a single scroll click -->
+		<scrollDistance>30</scrollDistance>
+	
+	</settings>
+	
+	<!-- The text box content, HTML/CSS compatible -->
+	<content><![CDATA[<!-- BEGIN -->
+<title_text>中文标题</title_text><normal_text><br/>中文支持Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam consequat odio eu aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent convallis posuere laoreet. Maecenas ultrices bibendum mollis. Duis quis libero a mi rhoncus suscipit at eu urna. Quisque ut erat erat. Integer tincidunt luctus quam, sed volutpat lacus porta in. Mauris auctor enim ultrices mauris vulputate non sollicitudin lectus tristique. Fusce eu lacus urna, a tempor est. Nunc nisi mi, mollis sit amet dignissim at, tincidunt eget arcu. In risus neque, accumsan a varius eu, pretium quis enim. In quis feugiat libero. Etiam nunc velit, dapibus eget elementum at, pellentesque viverra risus. Nam nisl augue, fringilla ut dictum ac, cursus ut nulla. Vestibulum quis lobortis nibh. Etiam rhoncus mi non justo cursus eu lacinia massa congue. Etiam vel nisi metus. Aliquam interdum quam et elit pharetra luctus. Nunc cursus hendrerit mauris sit amet commodo. Nam laoreet consequat magna non feugiat. Nunc pretium eros eget tortor bibendum porta. Etiam egestas felis a risus lobortis facilisis. Nullam dolor nisi, iaculis ut accumsan ut, adipiscing ac enim. Donec in nulla a ipsum bibendum volutpat at at lorem. Pellentesque ultricies mattis dolor, ac pulvinar erat egestas in. Aliquam erat volutpat. Nullam consequat fringilla velit non condimentum. Fusce eleifend eros nulla. Nulla felis felis, ultrices ac vehicula nec, molestie vitae lorem.</normal_text>
+
+<title_text>中文标题</title_text><normal_text><br/>Praesent nibh risus, blandit eleifend tristique at, vehicula ut leo. Nulla facilisi. Nulla laoreet purus tincidunt nisl rutrum sed molestie metus faucibus. Proin suscipit leo vitae nisi mollis vel elementum erat vulputate. Vivamus commodo venenatis dolor eget consectetur. Sed aliquam dolor sed erat luctus tempor. Vivamus magna enim, tincidunt at sagittis non, vestibulum vel nisl. Maecenas in nibh urna. Aliquam erat volutpat. Aliquam erat volutpat. Aliquam ullamcorper, velit nec imperdiet fermentum, tortor eros tincidunt diam, et molestie mi augue sit amet diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nibh risus, blandit eleifend tristique at, vehicula ut leo. Nulla facilisi. Nulla laoreet purus tincidunt nisl rutrum sed molestie metus faucibus. Proin suscipit leo vitae nisi mollis vel elementum erat vulputate. Vivamus commodo venenatis dolor eget consectetur. Sed aliquam dolor sed erat luctus tempor. Vivamus magna enim, tincidunt at sagittis non, vestibulum vel nisl.</normal_text>
+
+<title_text>中文标题</title_text><normal_text><br/>Proin volutpat tempus magna, eu ultrices eros pharetra quis. Sed consequat elit nec quam condimentum eleifend. Donec eu dui felis. Sed sapien tellus, malesuada vel gravida ullamcorper, tincidunt id lacus. In id laoreet elit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut venenatis, nunc eu convallis porta, sem orci sagittis diam, consectetur ultrices massa dolor in mi. Morbi 
+<a href="http://www.google.com" target="_blank">hyperlink</a> nec quam ac odio semper hendrerit. Mauris rhoncus, elit sed adipiscing blandit, leo augue interdum quam, vel pellentesque turpis quam ut tortor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla in elementum velit. Proin fringilla nunc at urna elementum pulvinar. Ut turpis quam, interdum sit amet ultrices nec, fringilla vitae arcu. Sed urna justo, semper nec venenatis faucibus, tincidunt sit amet nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut molestie neque eu nisi rutrum accumsan.</normal_text>
+
+<title_text>中文标题</title_text><normal_text><br/>Suspendisse potenti. Aliquam suscipit turpis ac leo eleifend a ullamcorper ligula tempor. Integer eu purus sit amet leo mollis laoreet. Donec aliquam pharetra quam, vel dapibus massa congue et. Nullam rutrum gravida vulputate. Proin velit massa, mattis nec dignissim a, fermentum ut nulla. Nullam varius augue in velit gravida vel pretium mauris feugiat. Sed libero sem, lacinia et ultrices ut, lacinia sit amet lorem. Fusce sollicitudin orci id eros dapibus condimentum. Curabitur nec libero eget quam pretium elementum sodales vel purus. Nulla imperdiet convallis est a blandit. Maecenas ut ligula ut est faucibus cursus quis a lorem. Curabitur purus nisi, tempor eget semper sit amet, adipiscing sed dui. In hac habitasse platea dictumst. 中文支持Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod gravida mauris quis convallis.</normal_text>
+
+<title_text>中文标题</title_text><normal_text><br/>Phasellus ullamcorper leo commodo neque volutpat rhoncus et vitae nisi. Praesent ut mi felis. Nullam non libero ipsum. Etiam commodo aliquet hendrerit. Etiam velit erat, pulvinar dictum bibendum a, ultricies et lorem. Praesent ac nisi odio. Praesent posuere pretium auctor. Nulla mattis libero sed nisi tincidunt semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean aliquet libero adipiscing magna commodo id malesuada arcu tempor. Donec tempus est sit amet risus vehicula ullamcorper. Integer varius sem sed neque viverra eget tempor ligula ultrices. Duis consectetur lorem vestibulum enim ullamcorper ullamcorper. Cras tellus leo, placerat eget condimentum vitae, semper nec libero. Phasellus vestibulum tempus iaculis. Fusce mi leo, dictum vitae convallis at, luctus id lacus. Ut a sem eget sapien faucibus pulvinar. Nunc sed erat a odio ullamcorper vehicula.</normal_text><!-- END -->]]></content>
+
+</data>

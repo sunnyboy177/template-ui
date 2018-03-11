@@ -1,0 +1,219 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<services>
+		
+	<settings
+		
+		servicesType="2"
+		controlsTopMargin=""
+		controlsRightMargin=""
+		navButtonColor=""
+		navButtonSelectedColor=""
+		
+		itemsInRow="3"
+		itemsTopMargin="0"
+		itemsLeftMargin="0"
+		itemWidth="280"
+		itemHeight=""
+		itemHSpacing="30"
+		itemVSpacing="40"
+		
+		imageBgColor=""
+		imageBgAlpha=""
+		imageBorderColor=""
+		imageBorderThickness=""
+		imageShadowColor=""
+		imageShadowAlpha=""
+		imagePreloaderColor=""
+		imagePreloaderAlpha=""
+		imageOverBrightness=""
+		imageTopMargin=""
+		imageBottomMargin=""
+		imageRightMargin=""
+		
+		titleBottomPadding="10"
+		
+		listItemMarkerURL="images/icons/list-item-marker-type3.png"
+		listItemMarkerTopPadding="7"
+		listItemLeftPadding="12"
+		listItemBottomPadding="3"
+			
+		scrollBarTrackWidth="2"
+		scrollBarTrackColor="CCCCCC"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="4"
+		scrollBarSliderColor="B5B5B5"
+		scrollBarSliderOverColor=""
+	/>
+	
+	<!-- Example 1 -->
+	
+	<service>
+		<title><![CDATA[<servicetitle>BRONZE membership</servicetitle><space></space><price>£120 per year</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>If you want discounted access to our sporting facilities this is the membership option for you:</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="E15151">
+				<item><![CDATA[<p>discounted access to facilities</p>]]></item>
+				<item><![CDATA[<p>a fitness room introduction</p>]]></item>
+				<item><![CDATA[<p>and up to one-week advance bookings including online.</p>]]></item>
+			</list>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>SILVER membership</servicetitle><space></space><price>£300 per year</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>If you are a regular user who wants... this is the membership for you:</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="E15151">
+				<item><![CDATA[<p>unlimited fitness room use</p>]]></item>
+				<item><![CDATA[<p>a fitness room introduction</p>]]></item>
+				<item><![CDATA[<p>one fitness programme</p>]]></item>
+				<item><![CDATA[<p>unlimited group exercise classes</p>]]></item>
+				<item><![CDATA[<p>up to ten-days advance bookings including online.</p>]]></item>
+			</list>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>GOLD membership</servicetitle><space></space><price>£360 per year</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<textblock topMargin="0" leftMargin="0">
+				<text><![CDATA[<p>If you are a regular user who wants... this is the membership for you:</p>]]></text>
+			</textblock>
+			<list topMargin="10" leftMargin="0" markerColor="E15151">
+				<item><![CDATA[<p>unlimited fitness room use</p>]]></item>
+				<item><![CDATA[<p>a fitness room introduction</p>]]></item>
+				<item><![CDATA[<p>two one-hour personal training sessions</p>]]></item>
+				<item><![CDATA[<p>unlimited group exercise classes</p>]]></item>
+				<item><![CDATA[<p>free court hire for all racket sports</p>]]></item>
+				<item><![CDATA[<p>10% discount on courses</p>]]></item>
+				<item><![CDATA[<p>access to gold-only classes</p>]]></item>
+				<item><![CDATA[<p>up to two-weeks advance bookings.</p>]]></item>
+			</list>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+	<!-- Example 2 -->
+	
+	<service>
+		<title><![CDATA[<servicetitle>PLUS PACKAGE</servicetitle><space></space><price>$8.95 / month</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>Unlimited storage</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>150 MB uploads per month</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Support</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Post photos, video & audio</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Domain mapping</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/cross.png" iconColor="E15151" iconTopPadding="2">
+				<![CDATA[<p>Additional authors</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/cross.png" iconColor="E15151" iconTopPadding="2">
+				<![CDATA[<p>Total design customization</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/cross.png" iconColor="E15151" iconTopPadding="2">
+				<![CDATA[<p>Priority support</p>]]>
+			</link>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up Now</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>UNLIMITED PACKAGE</servicetitle><space></space><price>$14.95 / month</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>Unlimited storage</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>1000 MB uploads per month</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Support</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Post photos, video & audio</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Domain mapping</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Additional authors</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Total design customization</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/cross.png" iconColor="E15151" iconTopPadding="2">
+				<![CDATA[<p>Priority support</p>]]>
+			</link>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up Now</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+	<service>
+		<title><![CDATA[<servicetitle>PREMIUM PACKAGE</servicetitle><space></space><price>$29.95 / month</price>]]></title>
+		<image src="" clickLink="" clickTarget=""/>
+		<content>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>Unlimited storage</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="0" iconURL="" iconColor="" iconTopPadding="">
+				<![CDATA[<p>2000 MB uploads per month</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Support</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Post photos, video & audio</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Domain mapping</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Additional authors</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Total design customization</p>]]>
+			</link>
+			<link topMargin="2" leftMargin="0" leftPadding="20" iconURL="images/icons/tick.png" iconColor="4C6066" iconTopPadding="2">
+				<![CDATA[<p>Priority support</p>]]>
+			</link>
+			<link topMargin="10" leftMargin="0" rightPadding="8" iconURL="images/icons/link-icon.png" iconColor="637D85" iconTopPadding="7" clickLink="#/pricing-tables" clickTarget="_self">
+				<![CDATA[<pricinglink>Sign Up Now</pricinglink>]]>
+			</link>
+		</content>
+	</service>
+	
+</services>

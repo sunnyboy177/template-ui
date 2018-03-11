@@ -1,0 +1,396 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<gallery>
+		
+	<settings
+		
+		showCategoryMenu="true"
+		categoryMenuAlign="left"
+		categoryMenuYPosition="0"
+		categorySpacing="20"
+		categoryFont="Arial"
+		categoryFontSize="14"
+		categoryFontWeight=""
+		categoryFontColor="666666"
+		categoryOverFontColor="333333"
+		categorySelectedFontColor="E15151"
+		categoryMenuTrimWidth="900"
+		categoryMenuTrimHeight="1"
+		categoryMenuTrimTopPadding="3"
+		categoryMenuTrimColor="666666"
+		categoryMenuTrimAlpha="0.5"
+		
+		previewsControlsYPosition="45"
+		previewsControlsRightMargin="10"
+		previewsNavButtonColor="888888"
+		previewsNavButtonSelectedColor="E15151"
+		
+		previewsInRow="4"
+		previewsInCol="3"
+		previewsTopMargin="12"
+		previewWidth="220"
+		previewHeight="135"
+		previewSpacing="2"
+		overlappreviewsBackgrounds="true"
+		
+		previewBgColor="FFFFFF"
+		previewBgAlpha="0.6"
+		previewBorderColor=""
+		previewBorderThickness=""
+		previewShadowColor=""
+		previewShadowAlpha=""
+		previewPreloaderColor="333333"
+		previewPreloaderAlpha="0.5"
+		previewCaptionBgColor="000000"
+		previewCaptionBgAlpha="0.3"
+		previewCaptionBlurredBg="true"
+		previewCaptionBgBlurAmount="32"
+		previewCaptionPadding="3"
+		previewCaptionAnimationType="slide"
+		previewOverBrightness="0.4"
+		previewVideoIconSize="30"
+		previewVideoIconColor="FFFFFF"
+		previewVideoIconAlpha="0.5"
+		previewVideoIconOverAlpha="1"
+		
+		overlayBgColor="000000"
+		overlayBgAlpha="0.9"
+		controlsBarBgColor="DDDDDD"
+		controlsBarBgAlpha="1"
+		buttonSpacing="6"
+		buttonIconColor="333333"
+		buttonIconOverColor="FFFFFF"
+		buttonBgColor="FFFFFF"
+		buttonBgOverColor="999999"
+		showInfoButton="true"
+		singleItemTextLeftMargin="50"
+		singleItemTextRightMargin="50"
+		singleItemDescriptionHeight=""
+		singleItemDescriptionTopMargin="10"
+		singleItemPreloaderColor="FFFFFF"
+		singleItemPreloaderAlpha="0.5"
+		
+		videoPlayerWidth="853"
+		videoBufferTime="3"
+		videoSoundVolume="0.85"
+		showVideoControls="true"
+		videoControlsAutoHide="true"
+		videoControlsAutoHideDelay="3"
+		videoControlsBgColor="FFFFFF"
+		videoControlsSeparatorColor="E5E5E5"
+		videoControlsButtonColor="777777"
+		videoControlsButtonOverColor="444444"
+		soundVolumeBarFillColor="FFCC99"
+		soundVolumeBarBgColor="EEEEEE"
+		timelineBgColor="EEEEEE"
+		timelineSeekBarColor="CCCCCC"
+		timelinePlayBarColor="606060"
+		screenPlayButtonSize="62"
+		screenPlayButtonIconColor="FFFFFF"
+		screenPlayButtonBgColor="000000"
+		screenPlayButtonAlpha="0.5"
+		
+		scrollBarTrackWidth="2"
+		scrollBarTrackColor="B5B5B5"
+		scrollBarTrackAlpha="0.5"
+		scrollBarSliderOverWidth="4"
+		scrollBarSliderColor="777777"
+		scrollBarSliderOverColor=""
+	/>
+	
+	<category title="Mixed Media Category">
+			
+		<item>
+			<title><![CDATA[<galleryitem-title>FLIGHT OF IMAGINATION FIRMLY GROUNDED</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview01.jpg"><![CDATA[<previewcaption><center>Flight of imagination firmly grounded</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">As much a natural part of the landscape as the water an the sky.</font></p>]]></description>
+			<media><image src="images/gallery/img01.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>TERMINAL B AT SAN JOSE INTERNATIONAL</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview02.jpg"><![CDATA[<previewcaption><center>Terminal B at San Jose International</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Terminal B at San Jose International opened up on June 26, 2010. Here's a quick walk-thru showing off some of the high tech art. *** Video by <a href="http://www.flickr.com/photos/dnak/4738120446/" target="_blank">Dave Nakayama</a>.</font></p>]]></description>
+			<media><video youTubeMode="false" src="videos/sjc_terminal.mp4" ratio="16:9" previewImage="images/gallery/video02-preview.jpg" playbackQuality="" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GRAPE VINE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview03.jpg"><![CDATA[<previewcaption><center>Grape vine</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">In Southern Spain in April.</font></p>]]></description>
+			<media><image src="images/gallery/img03.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>DRY MARKER PANEL SYSTEM</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview04.jpg"><![CDATA[<previewcaption><center>Dry marker panel system</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">A set of new panels that create a series of custom dry marker walls that define a series of meeting areas, and workspaces for the development of new HTML code and design. The panels are the latest innovation in "marker boards", creating an exciting interior design feature throughout the offices, and are very durable, easy to use, clean, and have custom features like magnetic marker trays, double-sided functionality, and changeable use signage. *** Photo by <a href="http://www.flickr.com/photos/philmanker/7349699298/in/set-72157611988355663" target="_blank">Phil Manker</a>.</font></p>]]></description>
+			<media><image src="images/gallery/img04.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GREEN TREE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview05.jpg"><![CDATA[<previewcaption><center>Green tree</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Photo taken in Shanghai, China.</font></p>]]></description>
+			<media><image src="images/gallery/img05.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GOLDBERG DISPLAY BENCH</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview06.jpg"><![CDATA[<previewcaption><center>Goldberg display bench</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">A monolithic 40' long custom steel bench built into the wall in a private residence in Manhattan, with access panels and grills for radiators at the window openings. All components are lasercut, and assembled/welded on site. *** Photo by <a href="http://www.flickr.com/photos/philmanker/4226219456/" target="_blank">Phil Manker</a>.</font></p>]]></description>
+			<media><image src="images/gallery/img06.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>POWER PLANT</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview07.jpg"><![CDATA[<previewcaption><center>Power plant</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">High voltage switch gear for three phases.</font></p>]]></description>
+			<media><image src="images/gallery/img07.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>preview INTERNATIONAL DESIGN EXHIBITION 2011</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview08.jpg"><![CDATA[<previewcaption><center>preview international design exhibition</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">The preview International Design Exhibition took place from 22-25 October 2011 in the Dubai World Trade Centre. Over 900 exhibitors from 45 countries showcased the latest international interior design products and services to a dedicated audience of over 27.000 visitors.</font></p>]]></description>
+			<media><video youTubeMode="true" src="6gvrI6iAMKM" ratio="16:9" previewImage="http://i3.ytimg.com/vi/6gvrI6iAMKM/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>NORTH CASCADES NATIONAL PARK</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview09.jpg"><![CDATA[<previewcaption><center>North Cascades national park</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img09.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>STATE ROUTE 12</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview10.jpg"><![CDATA[<previewcaption><center>State Route 12</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">State Route 12 or Scenic Byway 12, also known as "Highway 12 – A Journey Through Time Scenic Byway", is an All-American Road located in Garfield County and Wayne County, Utah, USA.</font></p>]]></description>
+			<media><image src="images/gallery/img10.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>ROCKY LAKESHORE AND MOUNTAINS</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview11.jpg"><![CDATA[<previewcaption><center>Rocky lakeshore and mountains</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Twin Lakes in the Eastern Sierras.</font></p>]]></description>
+			<media><image src="images/gallery/img11.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>SALTO GRANDE RAPIDS</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview12.jpg"><![CDATA[<previewcaption><center>Salto Grande Rapids</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img12.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GLACIER NATIONAL PARK</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview13.jpg"><![CDATA[<previewcaption><center>Glacier National Park</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Captured on July 14-18, 2011 in HD by <a href="http://www.youtube.com/watch?v=ChCbF2jsvKo" target="_blank">rjvaughn</a>.</font></p>]]></description>
+			<media><video youTubeMode="true" src="ChCbF2jsvKo" ratio="16:9" previewImage="http://i3.ytimg.com/vi/ChCbF2jsvKo/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>SUNSET OVER DURBAN – SOUTH AFRICA</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview14.jpg"><![CDATA[<previewcaption><center>Sunset over Durban – South Africa</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img14.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>HEAD WATERS OF THE METOLIUS RIVER</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview15.jpg"><![CDATA[<previewcaption><center>Head Waters of the Metolius River</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Drive into the Oregon Cascades between Eugene and Sister's Oregon on the "Old" MacKenzie Highway.</font></p>]]></description>
+			<media><image src="images/gallery/img15.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>INSANE TRAFFIC AT PLACE CHARLES DE GAULLE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview16.jpg"><![CDATA[<previewcaption><center>Place Charles de Gaulle</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">This video was taken from the top of the Arc de Triomphe (Paris) by <a href="http://www.flickr.com/photos/chriswaits/5720417447/in/photostream/" target="_blank">Chris Waits</a>.</font></p>]]></description>
+			<media><video youTubeMode="false" src="videos/top_view.mp4" ratio="16:9" previewImage="images/gallery/video16-preview.jpg" playbackQuality="" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GRAPES</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview17.jpg"><![CDATA[<previewcaption><center>Grapes</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Almost ready!</font></p>]]></description>
+			<media><image src="images/gallery/img17.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>THE ATLANTIS RESORT</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview18.jpg"><![CDATA[<previewcaption><center>The Atlantis resort</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Nassau, Bahamas</font></p>]]></description>
+			<media><image src="images/gallery/img18.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>DESIGN TALKS SEMINARS AT preview INTERNATIONAL DESIGN EXHIBITION 2011</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview19.jpg"><![CDATA[<previewcaption><center>Design Talks Seminars</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">The preview Design Talks, now in their 4th year, present a series of informative seminar sessions and interactive workshops. The Design Talks are free to attend at the preview International Design Exhibition and are a place for attendees to hear and learn from industry experts.</font></p>]]></description>
+			<media><video youTubeMode="true" src="KEqzVAERF5o" ratio="16:9" previewImage="http://i3.ytimg.com/vi/KEqzVAERF5o/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[]]></title>
+			<preview src="images/gallery/preview20.jpg"><![CDATA[]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img20.jpg"/></media>
+		</item>
+	
+	</category>
+	
+	<category title="Images Only Category">
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>FLIGHT OF IMAGINATION FIRMLY GROUNDED</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview01.jpg"><![CDATA[<previewcaption><center>Flight of imagination firmly grounded</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">As much a natural part of the landscape as the water an the sky.</font></p>]]></description>
+			<media><image src="images/gallery/img01.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GRAPE VINE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview03.jpg"><![CDATA[<previewcaption><center>Grape vine</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">In Southern Spain in April.</font></p>]]></description>
+			<media><image src="images/gallery/img03.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>DRY MARKER PANEL SYSTEM</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview04.jpg"><![CDATA[<previewcaption><center>Dry marker panel system</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">A set of new panels that create a series of custom dry marker walls that define a series of meeting areas, and workspaces for the development of new HTML code and design. The panels are the latest innovation in "marker boards", creating an exciting interior design feature throughout the offices, and are very durable, easy to use, clean, and have custom features like magnetic marker trays, double-sided functionality, and changeable use signage. *** Photo by <a href="http://www.flickr.com/photos/philmanker/7349699298/in/set-72157611988355663" target="_blank">Phil Manker</a>.</font></p>]]></description>
+			<media><image src="images/gallery/img04.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GREEN TREE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview05.jpg"><![CDATA[<previewcaption><center>Green tree</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Photo taken in Shanghai, China.</font></p>]]></description>
+			<media><image src="images/gallery/img05.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GOLDBERG DISPLAY BENCH</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview06.jpg"><![CDATA[<previewcaption><center>Goldberg display bench</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">A monolithic 40' long custom steel bench built into the wall in a private residence in Manhattan, with access panels and grills for radiators at the window openings. All components are lasercut, and assembled/welded on site. *** Photo by <a href="http://www.flickr.com/photos/philmanker/4226219456/" target="_blank">Phil Manker</a>.</font></p>]]></description>
+			<media><image src="images/gallery/img06.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>POWER PLANT</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview07.jpg"><![CDATA[<previewcaption><center>Power plant</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">High voltage switch gear for three phases.</font></p>]]></description>
+			<media><image src="images/gallery/img07.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>NORTH CASCADES NATIONAL PARK</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview09.jpg"><![CDATA[<previewcaption><center>North Cascades national park</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img09.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>STATE ROUTE 12</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview10.jpg"><![CDATA[<previewcaption><center>State Route 12</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">State Route 12 or Scenic Byway 12, also known as "Highway 12 – A Journey Through Time Scenic Byway", is an All-American Road located in Garfield County and Wayne County, Utah, USA.</font></p>]]></description>
+			<media><image src="images/gallery/img10.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>ROCKY LAKESHORE AND MOUNTAINS</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview11.jpg"><![CDATA[<previewcaption><center>Rocky lakeshore and mountains</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Twin Lakes in the Eastern Sierras.</font></p>]]></description>
+			<media><image src="images/gallery/img11.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>SALTO GRANDE RAPIDS</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview12.jpg"><![CDATA[<previewcaption><center>Salto Grande Rapids</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img12.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>SUNSET OVER DURBAN – SOUTH AFRICA</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview14.jpg"><![CDATA[<previewcaption><center>Sunset over Durban – South Africa</center></previewcaption>]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img14.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>HEAD WATERS OF THE METOLIUS RIVER</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview15.jpg"><![CDATA[<previewcaption><center>Head Waters of the Metolius River</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Drive into the Oregon Cascades between Eugene and Sister's Oregon on the "Old" MacKenzie Highway.</font></p>]]></description>
+			<media><image src="images/gallery/img15.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GRAPES</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview17.jpg"><![CDATA[<previewcaption><center>Grapes</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Almost ready!</font></p>]]></description>
+			<media><image src="images/gallery/img17.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>THE ATLANTIS RESORT</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview18.jpg"><![CDATA[<previewcaption><center>The Atlantis resort</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Nassau, Bahamas</font></p>]]></description>
+			<media><image src="images/gallery/img18.jpg"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[]]></title>
+			<preview src="images/gallery/preview20.jpg"><![CDATA[]]></preview>
+			<description><![CDATA[]]></description>
+			<media><image src="images/gallery/img20.jpg"/></media>
+		</item>
+		
+	</category>
+	
+	<category title="Videos Only Category">
+	
+		<item>
+			<title><![CDATA[<galleryitem-title>TERMINAL B AT SAN JOSE INTERNATIONAL</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview02.jpg"><![CDATA[<previewcaption><center>Terminal B at San Jose International</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Terminal B at San Jose International opened up on June 26, 2010. Here's a quick walk-thru showing off some of the high tech art. *** Video by <a href="http://www.flickr.com/photos/dnak/4738120446/" target="_blank">Dave Nakayama</a>.</font></p>]]></description>
+			<media><video youTubeMode="false" src="videos/sjc_terminal.mp4" ratio="16:9" previewImage="images/gallery/video02-preview.jpg" playbackQuality="" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>preview INTERNATIONAL DESIGN EXHIBITION 2011</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview08.jpg"><![CDATA[<previewcaption><center>preview international design exhibition</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">The preview International Design Exhibition took place from 22-25 October 2011 in the Dubai World Trade Centre. Over 900 exhibitors from 45 countries showcased the latest international interior design products and services to a dedicated audience of over 27.000 visitors.</font></p>]]></description>
+			<media><video youTubeMode="true" src="6gvrI6iAMKM" ratio="16:9" previewImage="http://i3.ytimg.com/vi/6gvrI6iAMKM/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>GLACIER NATIONAL PARK</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview13.jpg"><![CDATA[<previewcaption><center>Glacier National Park</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">Captured on July 14-18, 2011 in HD by <a href="http://www.youtube.com/watch?v=ChCbF2jsvKo" target="_blank">rjvaughn</a>.</font></p>]]></description>
+			<media><video youTubeMode="true" src="ChCbF2jsvKo" ratio="16:9" previewImage="http://i3.ytimg.com/vi/ChCbF2jsvKo/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>INSANE TRAFFIC AT PLACE CHARLES DE GAULLE</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview16.jpg"><![CDATA[<previewcaption><center>Place Charles de Gaulle</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">This video was taken from the top of the Arc de Triomphe (Paris) by <a href="http://www.flickr.com/photos/chriswaits/5720417447/in/photostream/" target="_blank">Chris Waits</a>.</font></p>]]></description>
+			<media><video youTubeMode="false" src="videos/top_view.mp4" ratio="16:9" previewImage="images/gallery/video16-preview.jpg" playbackQuality="" autoPlay="true"/></media>
+		</item>
+		
+		<item>
+			<title><![CDATA[<galleryitem-title>DESIGN TALKS SEMINARS AT preview INTERNATIONAL DESIGN EXHIBITION 2011</galleryitem-title>]]></title>
+			<preview src="images/gallery/preview19.jpg"><![CDATA[<previewcaption><center>Design Talks Seminars</center></previewcaption>]]></preview>
+			<description><![CDATA[<p><font color="#666666">The preview Design Talks, now in their 4th year, present a series of informative seminar sessions and interactive workshops. The Design Talks are free to attend at the preview International Design Exhibition and are a place for attendees to hear and learn from industry experts.</font></p>]]></description>
+			<media><video youTubeMode="true" src="KEqzVAERF5o" ratio="16:9" previewImage="http://i3.ytimg.com/vi/KEqzVAERF5o/0.jpg" playbackQuality="hd720" autoPlay="true"/></media>
+		</item>
+	
+	</category>
+	
+</gallery>

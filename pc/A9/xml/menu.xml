@@ -1,0 +1,325 @@
+﻿
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE MENU ITEMS/PAGES -->
+
+<!-- External SWF Position Options (only applies to your non-module swfs) -->
+<!--
+	
+1) topLeft
+2) topCenter
+3) topRight
+4) middleLeft
+5) middleCenter
+6) middleRight
+7) bottomLeft
+8) bottomCenter
+	
+-->
+
+<!-- SPECIAL NOTES -->
+
+<!--
+
+The menu has two different states.  The first state is when it is positioned at the bottom and the second state is when it is positioned at the top.  These states are controlled by whether a background-image is used.  For example a background image is used in the "About Us" page, and therefore the menu is positioned at the bottom.  But in the portfolio page, no background image is used and therefore the menu is positioned at the top.  All pages can have  background or no background, and the menu position will always be determined by the background usage.  If you do not wish to use a background image, delete the "bgURL" property.
+
+-->
+
+
+<data>
+	
+	<!-- "isCanvasSlideshow" = if the page is to display the built-in full-screen slideshow -->
+	<page isCanvasSlideshow="true">
+	
+		<!-- The menu text -->
+		<menuTitle>网站首页</menuTitle>
+		
+		<!-- The deep-link url, this must be unique! -->
+		<deepLinkURL>home</deepLinkURL>
+		
+		<!-- The menu font-color for the page -->
+		<menuFontColor>#867A79</menuFontColor>
+		
+		<!-- The menu font color on mouse over for the page -->
+		<menuFontHoverColor>#ffffff</menuFontHoverColor>
+		
+		<!-- The menu background-color (this will also be the background color for pages that do not have a background image or video) -->
+		<menuBackgroundColor>#312726</menuBackgroundColor>
+		
+		<!-- The swf to load for the page -->
+		<moduleURL>slideshow.swf</moduleURL>
+		
+		<!-- The module's xml url, (only applies to built-in modules) -->
+		<moduleXML>xml/slideshow.xml</moduleXML>
+		
+		<!-- The logo color for the page. This will change your logo to a solid color -->
+		<!-- This is optional!  Delete it entirely if you do not wish to use this option. -->
+		<logoColor>#ffffff</logoColor>
+		
+		<!-- The color of the footer button.  This will change the graphic into a solid color -->	
+		<!-- This is optional!  Delete it entirely if you do not wish to use this option. -->
+		<footerButtonColor>#ffffff</footerButtonColor>
+	
+	</page>
+	
+	<page>
+		
+		<menuTitle>关于我们</menuTitle>
+			
+		<subMenu>
+			
+			<subPage isCanvasSlideshow="false">
+			
+				<menuTitle>公司简介</menuTitle>
+				<deepLinkURL>a_few_words</deepLinkURL>
+				
+				<!-- This page has a background image -->
+				
+				<bgURL>images/backgrounds/about_us_bg.jpg</bgURL>
+				<menuFontColor>#423D37</menuFontColor>
+				<menuFontHoverColor>#ffffff</menuFontHoverColor>
+				<menuBackgroundColor>#847A6F</menuBackgroundColor>
+				<moduleURL>longtext.swf</moduleURL>
+				<moduleXML>xml/text1.xml</moduleXML>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#ffffff</footerButtonColor>
+				
+			</subPage>
+
+			<subPage isCanvasSlideshow="false">
+			
+				<menuTitle>公司历程</menuTitle>
+				<deepLinkURL>history</deepLinkURL>
+				
+				<!-- This page has a background image -->
+				<bgURL>images/backgrounds/history.jpg</bgURL>
+				
+				<menuFontColor>#99A4A2</menuFontColor>
+				<menuFontHoverColor>#ffffff</menuFontHoverColor>
+				<menuBackgroundColor>#445658</menuBackgroundColor>
+				<moduleURL>longtext.swf</moduleURL>
+				<moduleXML>xml/text2.xml</moduleXML>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#ffffff</footerButtonColor>
+				
+			</subPage>
+						
+			<subPage isCanvasSlideshow="false">
+			
+				<menuTitle>企业文化</menuTitle>
+				<deepLinkURL>simple_text</deepLinkURL>
+				
+				<!-- this page has a background image -->
+				<bgURL>images/backgrounds/simple_text.jpg</bgURL>
+				<menuFontColor>#47270E</menuFontColor>
+				<menuFontHoverColor>#ffffff</menuFontHoverColor>
+				<menuBackgroundColor>#895D1E</menuBackgroundColor>
+				<moduleURL>longtext.swf</moduleURL>
+				<moduleXML>xml/text3.xml</moduleXML>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#ffffff</footerButtonColor>
+				
+			</subPage>
+			
+		</subMenu>
+		
+	</page>
+
+	
+	
+			
+		
+	
+	
+	<page isCanvasSlideshow="false">
+	
+		<menuTitle>服务项目</menuTitle>
+		<deepLinkURL>our_services</deepLinkURL>
+		
+		<!-- This page has a background image -->
+		<bgURL>images/backgrounds/our_services.jpg</bgURL>
+		
+		<menuFontColor>#50432D</menuFontColor>
+		<menuFontHoverColor>#ffffff</menuFontHoverColor>
+		<menuBackgroundColor>#A0855A</menuBackgroundColor>
+		<moduleURL>longtext.swf</moduleURL>
+		<moduleXML>xml/our_services.xml</moduleXML>
+		<logoColor>#ffffff</logoColor>
+		<footerButtonColor>#ffffff</footerButtonColor>
+		
+	</page>
+
+	<page isCanvasSlideshow="false">
+	
+		<menuTitle>在线视频</menuTitle>
+		<deepLinkURL>singlevideo</deepLinkURL>
+		
+		<!-- This page has a background image -->
+		<bgURL>images/backgrounds/bg_video.jpg</bgURL>
+                <menuFontColor>#555555</menuFontColor>
+                <menuFontHoverColor>#ffffff</menuFontHoverColor>
+                <menuBackgroundColor>#010101</menuBackgroundColor>		
+		<moduleURL>singlevideo.swf</moduleURL>
+		<moduleXML>xml/singlevideo.xml</moduleXML>
+		<logoColor>#ffffff</logoColor>
+		<footerButtonColor>#ffffff</footerButtonColor>
+		
+	</page>
+	
+	<page isCanvasSlideshow="false">
+	
+		<menuTitle>新闻中心</menuTitle>
+		<deepLinkURL>news</deepLinkURL>
+		
+		<!-- This page has a background image -->
+		<bgURL>images/backgrounds/news_bg.jpg</bgURL>
+		
+		<menuFontColor>#ffffff</menuFontColor>
+		<menuFontHoverColor>#eebb88</menuFontHoverColor>
+		<menuBackgroundColor>#151513</menuBackgroundColor>		
+		<moduleURL>news.swf</moduleURL>
+		<moduleXML>xml/news.xml</moduleXML>
+		<logoColor>#ffffff</logoColor>
+		<footerButtonColor>#ffffff</footerButtonColor>
+		
+	</page>
+	
+	<page>
+	
+		<menuTitle>作品展示</menuTitle>
+		
+		<subMenu>
+	
+	 		<subPage isCanvasSlideshow="false">
+			
+				<menuTitle>图片模块#1</menuTitle>
+				<deepLinkURL>image_gallery</deepLinkURL>
+				<bgURL>images/backgrounds/bg_gallery.jpg</bgURL>
+				<menuFontColor>#ffffff</menuFontColor>
+				<menuFontHoverColor>#50432D</menuFontHoverColor>
+				<menuBackgroundColor>#A0855A</menuBackgroundColor>
+				<moduleURL>gallery.swf</moduleURL>
+				<moduleXML>xml/image_gallery.xml</moduleXML>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#ffffff</footerButtonColor>
+				
+			</subPage>
+                        
+			<subPage isCanvasSlideshow="false">
+			
+				<menuTitle>图片模块#2</menuTitle>
+				<deepLinkURL>bg_gallery</deepLinkURL>
+				<bgURL>images/backgrounds/bg_gallery.jpg</bgURL>
+				<menuFontColor>#555555</menuFontColor>
+				<menuFontHoverColor>#cc0000</menuFontHoverColor>
+				<menuBackgroundColor>#ffffff</menuBackgroundColor>
+				<moduleURL>gallery.swf</moduleURL>
+				<moduleXML>xml/image_gallery2.xml</moduleXML>
+				<logoColor>#000000</logoColor>
+				<footerButtonColor>#555555</footerButtonColor>
+				
+			</subPage>
+	
+			<subPage isCanvasSlideshow="false">
+				
+				<menuTitle>视频模块#1</menuTitle>
+				<deepLinkURL>video_gallery</deepLinkURL>
+                                <bgURL>images/backgrounds/bg_video.jpg</bgURL>
+				<menuFontColor>#555555</menuFontColor>
+				<menuFontHoverColor>#ffffff</menuFontHoverColor>
+				<menuBackgroundColor>#010101</menuBackgroundColor>
+				<moduleURL>portfolio.swf</moduleURL>
+				<moduleXML>xml/video_gallery.xml</moduleXML>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#777777</footerButtonColor>
+				
+			</subPage>
+		
+		
+
+		
+	
+	</subMenu>
+	
+	</page>
+	
+	<page isCanvasSlideshow="false">
+		
+		<menuTitle>案例展示</menuTitle>
+		<deepLinkURL>portfolio</deepLinkURL>
+                <bgURL>images/backgrounds/bg_portfolio.jpg</bgURL>
+		<menuFontColor>#ffffff</menuFontColor>
+		<menuFontHoverColor>#A0855A</menuFontHoverColor>
+		<menuBackgroundColor>#0F0F0F</menuBackgroundColor>	
+		<moduleURL>portfolio.swf</moduleURL>
+		<moduleXML>xml/portfolio.xml</moduleXML>	
+		<logoColor>#A0855A</logoColor>
+		<footerButtonColor>#777777</footerButtonColor>
+		
+	</page>
+
+        <page isCanvasSlideshow="false">
+			
+				<menuTitle>自定义SWF</menuTitle>
+				<deepLinkURL>external_swf</deepLinkURL>
+				
+				<!-- This page has a background image -->
+				<bgURL>images/backgrounds/your_swf.jpg</bgURL>
+				
+				<menuFontColor>#775533</menuFontColor>
+				<menuFontHoverColor>#ffffff</menuFontHoverColor>
+				<menuBackgroundColor>#bb9966</menuBackgroundColor>	
+				<moduleURL>yourswf.swf</moduleURL>
+				<yourSwfPosition>middleCenter</yourSwfPosition>
+				<logoColor>#ffffff</logoColor>
+				<footerButtonColor>#ffffff</footerButtonColor>
+				
+	 </page>
+    
+
+	<page isCanvasSlideshow="false">
+	
+		<menuTitle>联系我们</menuTitle>
+		<deepLinkURL>contact</deepLinkURL>
+		
+		<!-- This page has a background image -->
+		<bgURL>images/backgrounds/contact_bg.jpg</bgURL>
+		
+		<menuFontColor>#77686A</menuFontColor>
+		<menuFontHoverColor>#ffffff</menuFontHoverColor>
+		<menuBackgroundColor>#231215</menuBackgroundColor>
+		<moduleURL>contact.swf</moduleURL>
+		<moduleXML>xml/contact.xml</moduleXML>
+		<logoColor>#ffffff</logoColor>
+		<footerButtonColor>#ffffff</footerButtonColor>
+		
+	</page>
+
+                     
+			
+			<page isCanvasSlideshow="false">
+			
+				<menuTitle>友情链接</menuTitle>
+				
+				<!-- This page is an external link -->
+				<!-- The url to navigate to -->
+				<link>http://www.flashdos.com/ </link>
+								
+				<target>_blank</target>
+				
+			</page>
+
+
+
+
+
+
+
+</data>
+
+
+
+
+
+
+

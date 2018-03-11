@@ -1,0 +1,19 @@
+normal_text{
+	font-size:13px;
+	color:#A49D9D;
+}
+
+title_text{
+font-size:16px;
+color:#000000;
+}
+
+
+a {
+	color: #FFFFCC;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+

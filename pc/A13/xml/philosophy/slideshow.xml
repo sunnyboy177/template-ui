@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rotator>
+
+	<settings
+	
+		bannerWidth="904"
+		bannerHeight="204"
+		bannerBgColor="FFFFFF"
+		bannerBgAlpha="0.3"
+		bannerBackground=""
+		bannerCornerRadius=""
+		bannerShadowColor="666666"
+		bannerShadowAlpha="0.6"
+		autoPlay="true"
+		imageShowTime="5"
+		randomImages="false"
+		pauseOnMouseOver="false"
+		repeatMode="true"
+		
+		imageTransitionType="9"
+		imageTransitionDuration="1.5"
+		imageExposureDelay="0.5"
+		imageExposureStrength="2"
+		randomImageTransitions="false"
+		squareSize=""
+		
+		imageAreaWidth="900"
+		imageAreaHeight="200"
+		imageAreaCornerRadius=""
+		imageAreaXPosition="2"
+		imageAreaYPosition="2"
+		
+		captionTextShadowColor="333333"
+		captionTextShadowAlpha="0.4"
+		
+		showControls="true"
+		controlsType="1"
+		controlsPosition="right"
+		controlsXOffset="15"
+		controlsYOffset="10"
+		controlsAutoHide="false"
+		buttonSpacing="8"
+		buttonBgColor="FFFFFF"
+		buttonOverBgColor="FFFFFF"
+		buttonSelectedBgColor="FFCC33"
+		showButtonShadow="true"
+		buttonShadowColor="FF0000"
+		showPlayPauseButton="false"
+		playPauseIconColor=""
+		playPauseIconOverColor=""
+		
+		showTimer="false"
+		timerBarPosition=""
+		timerBarHeight=""
+		timerBarColor=""
+		timerBarAlpha=""
+		
+		showPreloader="true"
+		preloaderColor="FFFFFF"
+	/>
+	
+	<banners>
+		<banner>
+			<image src="images/banners/philosophy1.jpg"/>
+			<textblock xPos="545" yPos="27" startDelay="0.5" shadow="true">
+				<start_animation type="Fade" duration="0.8" moveFrom="left" moveOffset="100" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="36" color="#EFFFD5">The Perfect Balance</font>]]></text>
+			</textblock>
+			<textblock xPos="545" yPos="70" startDelay="1" shadow="true">
+				<start_animation type="Fade" duration="0.8" moveFrom="left" moveOffset="100" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="22" color="#F1F1F1">between the vine and the natural harmony</font>]]></text>
+			</textblock>
+		</banner>
+		<banner>
+			<image src="images/banners/philosophy2.jpg"/>
+			<textblock xPos="530" yPos="20" startDelay="0.5" shadow="true">
+				<start_animation type="Fade" duration="0.8" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="22" color="#F8F8F8">Each vineyard has its own</font>]]></text>
+			</textblock>
+			<textblock xPos="530" yPos="42" startDelay="1" shadow="true">
+				<start_animation type="Fade" duration="0.8" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="36" color="#EFFFD5">Active Management Plan</font>]]></text>
+			</textblock>
+		</banner>
+		<banner>
+			<image src="images/banners/philosophy3.jpg"/>
+			<textblock xPos="20" yPos="107" startDelay="0.5" shadow="true">
+				<start_animation type="Fade" duration="0.8" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="36" color="#FFE9D2">Continuous Improvement</font>]]></text>
+			</textblock>
+			<textblock xPos="20" yPos="150" startDelay="1" shadow="true">
+				<start_animation type="Fade" duration="0.8" blur="true"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="22" color="#F1F1F1">of our viticultural practices and management</font>]]></text>
+			</textblock>
+		</banner>
+		<banner>
+			<image src="images/banners/philosophy4.jpg"/>
+			<textblock xPos="35" yPos="110" startDelay="1" shadow="true">
+				<start_animation type="Fade" duration="0.8" moveFrom="left" moveOffset="60"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="22" color="#F1F1F1">On-going investment in the latest</font>]]></text>
+			</textblock>
+			<textblock xPos="35" yPos="132" startDelay="1.5" shadow="true">
+				<start_animation type="Fade" duration="0.8" moveFrom="left" moveOffset="60"/>
+				<text><![CDATA[<font face="Franklin Gothic Medium Cond" size="36" color="#FBF7CA">Mechanization</font>]]></text>
+			</textblock>
+		</banner>
+	</banners>
+	
+</rotator>

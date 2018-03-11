@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- THIS XML FILE IS FOR THE GALLERY MODULE.  TO CREATE MULIPLE GALLERIES, DUPLICATE THIS XML FILE AND GIVE IT A UNIQUE FILE NAME -->
+
+<data>
+	
+	<!-- SPECIAL NOTE -->
+	<!-- 
+	In order to create the thumbnail "zoom" effect, the actual size of your thumbnails should be larger than the "display" size.  
+	The parameter "displayThumbWidth" will be the width that your thumbnails will appear in the gallery (height will be determined automatically).
+	-->
+	
+	<settings>
+		
+		<!-- Choose to use a CSS file -->
+		<useCSS>true</useCSS>
+		
+		<!-- The URL of your CSS file if used -->
+		<cssURL>css/mixed_gallery.css</cssURL>
+		
+		<!-- Choose to use thumbnail numbers, true/false -->
+		<useThumbNumbers>false</useThumbNumbers>
+		
+		<!-- The distance in pixels between the roll-over bg and the actual thumb item -->
+		<thumbRollOverBuffer>5</thumbRollOverBuffer>
+		
+		<!-- The total number columns of thumbnails to be displayed per page -->
+		<thumbColumns>4</thumbColumns>
+		
+		<!-- The total number of rows to be displayed per page -->
+		<thumbRows>4</thumbRows>
+		
+		<!-- The original width of your thumbnail -->
+		<actualThumbWidth>220</actualThumbWidth>
+		
+		<!-- The original height of your thumbnail -->
+		<actualThumbHeight>100</actualThumbHeight>
+		
+		<!-- The display width of your thumbnail -->
+		<displayThumbWidth>150</displayThumbWidth>
+		
+		<!-- The distance in pixels between your thumbnails -->
+		<thumbSpacing>10</thumbSpacing>
+		
+		<!-- The thumbnail image 2px border color -->
+		<thumbBorderColor>#000000</thumbBorderColor>
+		
+		<!-- The background color that will be shown on mouse over -->
+		<thumbRollOverBgColor>#ffffff</thumbRollOverBgColor>
+		
+		<!-- Choose to use thumbnail mouse over animation -->
+		<useThumbRollOverAnimation>true</useThumbRollOverAnimation>
+		
+		<!-- The thumbnail number text color -->
+		<thumbNumberTextColor>#ffffff</thumbNumberTextColor>
+		
+		<!-- the thumbnail number background color -->
+		<thumbNumberBgColor>#000000</thumbNumberBgColor>
+		
+		<!-- Choose to use thumbnail titles, true/false -->
+		<useThumbTitles>false</useThumbTitles>
+		
+		<!-- The color of the thumbnail title text -->
+		<thumbTitleTextColor>#000000</thumbTitleTextColor>
+		
+		<!-- The background color of your thumb titles -->
+		<thumbTitleBgColor>#ffffff</thumbTitleBgColor>
+		
+		<!-- The color of the previous/next arrows -->
+		<arrowColor>#FFFFFF</arrowColor>
+		
+		<!-- The mouse over color of the previous/next arrows -->
+		<arrowRollOverColor>#cc0000</arrowRollOverColor>
+		
+		<!-- The title of the gallery -->
+		<galleryTitle>图片展示</galleryTitle>
+		
+		<!-- The color of the page title text -->
+		<pageTitleTextColor>#FFFFFF</pageTitleTextColor>
+		
+		<!-- The page title background color -->
+		<pageTitleBgColor>#000000</pageTitleBgColor>
+		
+		<!-- The prefix to the page numbers -->
+		<pageNumberText>页面</pageNumberText>
+		
+		<!-- The color of the lightbox background -->
+		<lightBoxBgColor>#000000</lightBoxBgColor>
+		
+		<!-- The transparency of the lightbox background -->
+		<lightBoxTransparency>75</lightBoxTransparency>
+		
+		<!-- The color of the lightbox arrows -->
+		<lightBoxArrowColor>#000000</lightBoxArrowColor>
+		
+		<!-- The color of the lightbox arrows on mouse over -->
+		<lightBoxArrowHoverColor>#AAAAAA</lightBoxArrowHoverColor>
+		
+		<!-- The color of the lightbox info button -->
+		<infoButtonColor>#000000</infoButtonColor>
+		
+		<!-- The color of the lightbox info button on mouse over -->
+		<infoButtonHoverColor>#AAAAAA</infoButtonHoverColor>
+		
+		<!-- The color of the exit button -->
+		<exitButtonColor>#000000</exitButtonColor>
+		
+		<!-- The color of the exit button on mouse over -->
+		<exitButtonHoverColor>#AAAAAA</exitButtonHoverColor>
+		
+		<!-- The preloader color for the light-box -->
+		<preloaderColor>#000000</preloaderColor>
+		
+		<!-- The initial video volume -->
+		<videoVolume>100</videoVolume>
+		
+		<!-- The video buffering time in seconds -->
+		<videoBuffering>3</videoBuffering>
+		
+		<!-- choose to autoStart video, true/false -->
+		<autoStartVideo>true</autoStartVideo>
+		
+	
+	</settings>
+	
+	<gallery>
+		
+		<!-- BEGIN ITEM -->
+		<item>
+		
+			<!-- BEGIN THUMBNAIL -->
+			<thumb>
+			
+				<!-- The url of your thumbnail -->
+				<url>images/gallery/thumbs/1.jpg</url>
+				
+				<!-- The thumbnail title text, HTML/CSS supported -->
+				<title><![CDATA[<!-- BEGIN --><thumb_title>中文标题CHRISTINA JOHNSON</thumb_title><!-- END -->]]></title>
+				
+			</thumb>
+			<!-- END THUMBNAIL -->
+			
+			<!-- BEGIN LARGE MEDIA -->
+			<!-- "isYouTube" = whether or not the media item is a YouTube video, true/false -->
+			<large isYouTubeVideo="false">
+				
+				<!-- The url of your image or video, or the YouTube video ID -->
+				<url>images/gallery/1.jpg</url>
+				
+				<!-- The media item title text, HTML/CSS supported -->
+				<title><![CDATA[<!-- BEGIN --><large_title>中文标题CHRISTINA JOHNSON</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>详细描述Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat nulla, semper vel adipiscing vel, placerat at lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae metus lorem. Etiam fermentum, sapien in euismod ultricies, erat nulla fermentum nisi, eu aliquam justo turpis sed sapien. Proin id nunc lacus. Nam congue, urna quis gravida commodo, orci lacus euismod nibh, vel rhoncus velit diam vitae mauris. Pellentesque commodo volutpat diam at aliquam. Curabitur eget dui enim, nec suscipit elit.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			<!-- END LARGE MEDIA -->
+			
+		</item>
+		<!-- END ITEM -->
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/2.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>EMMA SMITH</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/2.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>EMMA SMITH</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat nulla, semper vel adipiscing vel, placerat at lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vitae metus lorem. Etiam fermentum, sapien in euismod ultricies, erat nulla fermentum nisi, eu aliquam justo turpis sed sapien. Proin id nunc lacus. Nam congue, urna quis gravida commodo, orci lacus euismod nibh, vel rhoncus velit diam vitae mauris. Pellentesque commodo volutpat diam at aliquam. Curabitur eget dui enim, nec suscipit elit.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/3.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>JENNIFER WILLIAMS</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/3.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>JENNIFER WILLIAMS</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Curabitur id risus ante, id pretium odio. Curabitur accumsan lobortis euismod. Pellentesque ullamcorper magna in diam tempus sodales. Proin accumsan fringilla faucibus. Ut tellus quam, placerat sollicitudin rhoncus porta, facilisis dictum elit. Mauris consequat leo eu lectus convallis tempus. Aenean leo ligula, porttitor non bibendum in, volutpat laoreet lectus. Fusce sit amet commodo nunc.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/4.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>KIRSTIE MOORE</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/4.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>KIRSTIE MOORE</large_title><!-- END -->]]></title>
+				<description></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/11.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>PAMELA JONES</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/11.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>PAMELA JONES</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Quisque pulvinar dolor sed nisi viverra scelerisque. Curabitur facilisis elit sit amet lacus volutpat ut accumsan lectus hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec tincidunt eros sed elit molestie id dapibus massa commodo. Nunc ullamcorper elit sed est dignissim facilisis molestie mauris pulvinar. Donec tristique fermentum faucibus.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/5.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>GINA ANDERSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/5.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>GINA ANDERSON</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Nunc ullamcorper elit sed est dignissim facilisis molestie mauris pulvinar. Donec tristique fermentum faucibus. Proin scelerisque volutpat ligula eget scelerisque. Etiam sit amet nibh magna. Etiam tincidunt porttitor quam, eu dapibus felis accumsan sit amet. Vestibulum pharetra tincidunt dapibus.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/6.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>VICTORIA ADAMS</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/6.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>VICTORIA ADAMS</large_title><!-- END -->]]></title>
+				<description></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/12.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>LAURA ROBINSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/12.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>LAURA ROBINSON</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Nullam consequat vulputate mattis. Proin id metus id justo gravida consectetur id sed tellus. Nam rutrum facilisis justo, pretium vehicula lorem hendrerit a. Pellentesque mollis malesuada quam et adipiscing. Etiam convallis sapien quis risus sagittis adipiscing. In hac habitasse platea dictumst. Nulla nec ante magna. Donec leo sapien, volutpat nec auctor non, porttitor quis justo.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/7.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>PATRICIA MARTINEZ</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/7.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>PATRICIA MARTINEZ</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Donec et metus sit amet sem egestas consectetur at et erat. Curabitur porta, ligula sed facilisis malesuada, nulla justo ornare elit, vitae pellentesque orci neque vel neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Nulla mollis posuere lectus, eu mollis orci feugiat ut. Curabitur libero lacus, congue ut pellentesque a, venenatis at diam. Proin id neque sem, eget dictum purus. Sed at turpis ac purus vulputate ultrices. Aliquam erat volutpat. Etiam blandit nibh vitae velit mollis non ultricies massa iaculis.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/8.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>JANE WATSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/8.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>JANE WATSON</large_title><!-- END -->]]></title>
+				<description></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/9.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>JOSEPHINE DIOR</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/9.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>JOSEPHINE DIOR</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Pellentesque ornare porttitor eros sit amet pretium. Curabitur pellentesque lorem quis est blandit ullamcorper. Integer congue commodo purus, nec suscipit eros gravida id. Proin tincidunt, augue at pulvinar pretium, magna nisl egestas leo, eu accumsan justo mauris accumsan turpis.</normal_text><!-- END -->]]></description>
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/19.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>KELLY BROWN</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/19.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>KELLY BROWN</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Aliquam at fermentum velit. Fusce malesuada pharetra odio a mattis. Vivamus lorem elit, convallis eget aliquam vel, adipiscing non risus. Praesent placerat nisi ac velit feugiat lacinia ultrices arcu consequat. Curabitur purus dui, convallis nec pretium a, sagittis non nunc. Nullam congue varius vehicula. Phasellus non nulla eget quam laoreet venenatis.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/10.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>MICHELLE WESTON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/10.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>MICHELLE WESTON</large_title><!-- END -->]]></title>
+				<description></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/13.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>EVA DAVIDSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/13.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>EVA DAVIDSON</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Vestibulum condimentum ante ut turpis feugiat lobortis. Morbi nisi ante, vestibulum nec tincidunt nec, sollicitudin a arcu. In porttitor tellus ac purus pulvinar tincidunt tempus elit porttitor. Suspendisse ac mauris ultricies odio dapibus pellentesque. Cras eu nisi leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/14.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>BRENDA THOMPSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/14.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>BRENDA THOMPSON</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Mauris dictum dictum risus vel commodo. Praesent dignissim viverra quam ac aliquet. Etiam egestas lacinia laoreet. Cras gravida ipsum at urna porta pretium. Morbi pretium fringilla dolor at laoreet. Phasellus tempor, elit quis varius volutpat, eros ligula posuere magna, eget condimentum sem nunc et nibh. Duis scelerisque porta leo quis porta.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/15.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>JESSICA TAYLOR</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/15.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>JESSICA TAYLOR</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Fusce non leo vel elit tempor volutpat. Aliquam et nibh a purus hendrerit dapibus eget ut purus. Aenean lacinia dictum orci, sit amet vehicula magna fringilla ac. Pellentesque semper leo ultricies mi scelerisque viverra. Fusce sed tellus nisi, non varius massa. Phasellus feugiat sapien quis erat pulvinar ut convallis metus commodo.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/16.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>FRANCINE HARRIS</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/16.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>FRANCINE HARRIS</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Vivamus accumsan massa quam. Nullam et lectus nec lorem luctus elementum ut at dui. Phasellus volutpat nisl at odio pulvinar fringilla. Sed lorem lorem, rutrum in molestie sed, pretium non purus. Sed hendrerit, ligula vitae elementum facilisis, enim dolor suscipit nisi, in fringilla magna nunc in turpis.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/17.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>KYLIE NELSON</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/17.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>KYLIE NELSON</large_title><!-- END -->]]></title>
+				<description></description>
+				
+			</large>
+			
+		</item>
+
+		<item>
+		
+			<thumb>
+				<url>images/gallery/thumbs/18.jpg</url>
+				<title><![CDATA[<!-- BEGIN --><thumb_title>PATRICIA ROBERTS</thumb_title><!-- END -->]]></title>
+			</thumb>
+			
+			<large isYouTubeVideo="false">
+			
+				<url>images/gallery/18.jpg</url>
+				
+				<title><![CDATA[<!-- BEGIN --><large_title>PATRICIA ROBERTS</large_title><!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Praesent dictum faucibus urna vulputate tincidunt. Sed auctor, lorem at adipiscing pharetra, sapien nulla vulputate tortor, sit amet porta mauris libero ut justo. Mauris condimentum, ligula nec ultrices egestas, leo metus posuere mauris, id accumsan massa metus sed turpis. Mauris nulla lorem, bibendum et faucibus quis, auctor quis risus.</normal_text><!-- END -->]]></description>
+				
+			</large>
+			
+		</item>
+
+	
+	</gallery>
+
+</data>

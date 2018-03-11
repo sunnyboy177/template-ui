@@ -1,0 +1,22 @@
+normal_text{
+	font-size:13px;
+	color:#FFFFFF;
+}
+
+
+title_text{
+	font-family:Microsoft YaHei;
+	font-size: 24px;
+	color:#A8A099;
+}
+
+
+
+a {
+	color: #EEBB88;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
